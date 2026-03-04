@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JNS Template Variations</title>
+  <style>
+    :root {
+      --green: #006837;
+      --charcoal: #0f1412;
+      --ink: #050505;
+      --silver: #c7d0cb;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--white);
+      background: radial-gradient(circle at 10% 0%, #1f3a2d 0%, var(--charcoal) 45%, var(--ink) 100%);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .wrap {
+      width: min(900px, 100%);
+      background: linear-gradient(150deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      border: 1px solid rgba(199, 208, 203, 0.25);
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 16px 38px rgba(0,0,0,0.35);
+    }
+    h1 { margin: 0 0 6px; }
+    p { color: #d7dfdb; margin: 0 0 22px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+      background: linear-gradient(180deg, rgba(0,104,55,0.45), rgba(0,0,0,0.7));
+      border: 1px solid rgba(199, 208, 203, 0.35);
+      border-radius: 14px;
+      padding: 16px;
+      display: block;
+      transition: transform .15s ease, border-color .15s ease;
+    }
+    a:hover { transform: translateY(-2px); border-color: var(--white); }
+    strong { display: block; margin-bottom: 8px; }
+    small { color: var(--silver); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>JNS Construction Services — Template Lab</h1>
+    <p>Preview different homepage directions before selecting a final design.</p>
+    <section class="cards">
+      <a href="./template-01-industrial/index.html">
+        <strong>Template 01 — Industrial Hero</strong>
+        <small>Bold header, trust badges, service cards, estimate CTA.</small>
+      </a>
+      <a href="./template-02-premium/index.html">
+        <strong>Template 02 — Premium Glass</strong>
+        <small>Metallic panel style with split hero and elevated cards.</small>
+      </a>
+      <a href="./template-03-classic/index.html">
+        <strong>Template 03 — Classic Contractor</strong>
+        <small>Straightforward business-first layout with dark metallic bands.</small>
+      </a>
+      <a href="./template-04-knightgroup-inspired/index.html">
+        <strong>Template 04 — KnightGroup Inspired</strong>
+        <small>Hero image + CTA, credentials, service grid, map embed, and reviews.</small>
+      </a>
+    </section>
+  </main>
+</body>
+</html>
