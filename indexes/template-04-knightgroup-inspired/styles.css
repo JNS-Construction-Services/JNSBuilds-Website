@@ -115,7 +115,10 @@ body {
 .contact h2,
 .contact p,
 .contact li,
-.social-links a {
+.social-links a,
+.site-footer h3,
+.site-footer p,
+.site-footer a {
   color: var(--container-text);
 }
 .eyebrow,
@@ -202,7 +205,9 @@ main {
 .intro,
 .services,
 .location-reviews,
-.contact {
+.contact,
+.reviews-panel,
+.estimate-panel {
   border: 1px solid rgba(200, 209, 205, .28);
   border-radius: 16px;
   padding: 18px;
@@ -225,13 +230,48 @@ main {
   grid-template-columns: 1.25fr 1fr;
   gap: 14px;
 }
+.map-block {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.estimate-panel {
+  margin-top: 0;
+}
 .map-block iframe {
   width: 100%;
+  height: 100%;
   min-height: 340px;
   border-radius: 12px;
 }
-.review-block .btn { margin: 8px 8px 0 0; }
+.reviews-panel .btn { margin: 8px 8px 0 0; }
 .contact a { color: #b8efce; }
+.estimate-form {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+}
+.estimate-form label {
+  display: grid;
+  gap: 6px;
+  font-size: .9rem;
+  color: var(--container-text);
+}
+.estimate-form input,
+.estimate-form textarea {
+  width: 100%;
+  background: rgba(8, 12, 11, .78);
+  color: #edf6f1;
+  border: 1px solid rgba(200, 209, 205, .35);
+  border-radius: 10px;
+  padding: 10px;
+}
+.estimate-form input:focus,
+.estimate-form textarea:focus {
+  outline: none;
+  border-color: rgba(255,255,255,.65);
+}
+.estimate-form .hp { display: none; }
 .social-links {
   display: flex;
   gap: 10px;
@@ -245,16 +285,51 @@ main {
   padding: 8px 12px;
   background: linear-gradient(145deg, #1e8958, var(--green));
 }
+.site-footer {
+  border: 1px solid rgba(200, 209, 205, .28);
+  border-radius: 16px;
+  padding: 18px;
+  background: linear-gradient(165deg, #183428 0%, #214634 52%, #171a19 100%);
+  margin-top: 14px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.footer-links a {
+  color: var(--white);
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: linear-gradient(145deg, #1e8958, var(--green));
+}
+.copyright {
+  margin: 14px 0 0;
+  text-align: center;
+  color: var(--container-text);
+}
 .intro,
 .services,
 .location-reviews,
 .contact,
+.site-footer,
+.reviews-panel,
+.estimate-panel,
 .cards article,
 .nav-links a,
 .btn,
 .call,
 .theme-toggle,
 .social-links a,
+.footer-links a,
 .dropdown-menu,
 .dropdown-menu a {
   position: relative;
@@ -265,12 +340,16 @@ main {
 .services::before,
 .location-reviews::before,
 .contact::before,
+.site-footer::before,
+.reviews-panel::before,
+.estimate-panel::before,
 .cards article::before,
 .nav-links a::before,
 .btn::before,
 .call::before,
 .theme-toggle::before,
 .social-links a::before,
+.footer-links a::before,
 .dropdown-menu::before,
 .dropdown-menu a::before {
   content: "";
@@ -285,12 +364,16 @@ main {
 .services:hover,
 .location-reviews:hover,
 .contact:hover,
+.site-footer:hover,
+.reviews-panel:hover,
+.estimate-panel:hover,
 .cards article:hover,
 .nav-links a:hover,
 .btn:hover,
 .call:hover,
 .theme-toggle:hover,
 .social-links a:hover,
+.footer-links a:hover,
 .dropdown-menu:hover,
 .dropdown-menu a:hover {
   border-color: rgba(255,255,255,.45);
@@ -300,12 +383,16 @@ main {
 .services:hover::before,
 .location-reviews:hover::before,
 .contact:hover::before,
+.site-footer:hover::before,
+.reviews-panel:hover::before,
+.estimate-panel:hover::before,
 .cards article:hover::before,
 .nav-links a:hover::before,
 .btn:hover::before,
 .call:hover::before,
 .theme-toggle:hover::before,
 .social-links a:hover::before,
+.footer-links a:hover::before,
 .dropdown-menu:hover::before,
 .dropdown-menu a:hover::before {
   transform: translateX(145%);
@@ -314,15 +401,16 @@ main {
   .location-reviews { grid-template-columns: 1fr; }
   .top-nav img { height: 40px; }
   .top-nav { flex-direction: column; gap: 10px; }
+  .footer-grid { grid-template-columns: 1fr; }
   .hero {
     height: auto;
     max-height: none;
     min-height: 40vh;
   }
   .dropdown-menu {
-    position: static;
-    display: block;
-    width: 100%;
-    margin-top: 6px;
+    position: absolute;
+    display: none;
+    width: min(92vw, 260px);
+    margin-top: 0;
   }
 }

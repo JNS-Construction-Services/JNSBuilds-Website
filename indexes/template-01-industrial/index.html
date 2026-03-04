@@ -54,30 +54,61 @@
       </div>
     </section>
 
-    <section id="location" class="location">
-      <h2>Location & Reviews</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.6690889014617!2d-82.73805349999999!3d28.095635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2f342226189c9%3A0x538c37d53c1dc79f!2sJNS%20Construction%20Services%20LLC!5e0!3m2!1sen!2sus!4v1772663193716!5m2!1sen!2sus" title="JNS Construction Services location" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section id="location" class="location location-row">
+      <div class="map-block">
+        <h2>Visit Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.6690889014617!2d-82.73805349999999!3d28.095635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2f342226189c9%3A0x538c37d53c1dc79f!2sJNS%20Construction%20Services%20LLC!5e0!3m2!1sen!2sus!4v1772663193716!5m2!1sen!2sus" title="JNS Construction Services location" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div id="estimate" class="estimate-panel">
+        <h2>Request an Estimate</h2>
+        <p>Connor McCollum, Field Supervisor / Authorized Agent</p>
+        <p><strong>Address:</strong> 35595 US Hwy 19 N, Suite 621, Palm Harbor, FL 34684</p>
+        <p><strong>Phone:</strong> <a href="tel:+15550100000">(555) 010-0000</a></p>
+        <form class="estimate-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" />
+          <input type="hidden" name="_subject" value="Template 01 Estimate Request" />
+          <label>Full Name *<input type="text" name="fullName" required /></label>
+          <label>Email *<input type="email" name="email" required /></label>
+          <label>Phone *<input type="tel" name="phone" required /></label>
+          <label>Service Needed<input type="text" name="serviceNeeded" /></label>
+          <label>Project Details *<textarea name="projectDetails" rows="4" required></textarea></label>
+          <button type="submit" class="btn primary">Send Request</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="reviews-panel">
+      <h2>Reviews & Feedback</h2>
+      <p>We appreciate every customer review and use feedback to improve every project.</p>
       <div class="review-links">
         <a class="btn" href="https://g.page/r/CZ_HHTzVN4xTEBM/review" target="_blank" rel="noopener noreferrer">Leave a Google Review</a>
         <a class="btn" href="https://g.page/r/CZ_HHTzVN4xTEAE/review" target="_blank" rel="noopener noreferrer">View Reviews</a>
       </div>
     </section>
 
-    <section id="estimate" class="contact">
-      <h2>Request an Estimate</h2>
-      <p>Connor McCollum, Field Supervisor / Authorized Agent</p>
-      <p><strong>Address:</strong> 35595 US Hwy 19 N, Suite 621, Palm Harbor, FL 34684</p>
-      <p><strong>Phone:</strong> <a href="tel:+15550100000">(555) 010-0000</a></p>
-    </section>
-
-    <footer id="social" class="footer">
-      <h2>Connect With Us</h2>
-      <div class="social-links">
-        <a href="#" aria-label="Facebook placeholder">Facebook</a>
-        <a href="#" aria-label="Instagram placeholder">Instagram</a>
-        <a href="#" aria-label="LinkedIn placeholder">LinkedIn</a>
-        <a href="#" aria-label="YouTube placeholder">YouTube</a>
+    <footer id="social" class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <h3>Quick Links</h3>
+          <p class="footer-links">
+            <a href="#">Payment Policy</a>
+            <a href="#">Return Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </p>
+        </div>
+        <div>
+          <h3>Connect With Us</h3>
+          <p>📞 <a href="tel:+15550100000">(555) 010-0000</a> · ✉ info@jnsconstructionservices.com</p>
+          <p class="footer-links">
+            <a href="#" aria-label="Facebook placeholder">Facebook</a>
+            <a href="#" aria-label="Instagram placeholder">Instagram</a>
+            <a href="#" aria-label="LinkedIn placeholder">LinkedIn</a>
+            <a href="#" aria-label="YouTube placeholder">YouTube</a>
+          </p>
+        </div>
       </div>
+      <p class="copyright">© 2026 JNS Construction Services. All rights reserved.</p>
     </footer>
   </main>
 
