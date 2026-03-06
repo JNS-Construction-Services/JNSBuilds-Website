@@ -415,82 +415,124 @@ main {
   }
 }
 
-  /* Unified green-black backdrop with classic emerald container treatment */
-  [data-theme="dark"] {
-    --page-bg: linear-gradient(160deg, #14271d 0%, #111613 48%, #050505 100%);
-    --page-text: #f3faf6;
-  }
-  .hero {
-    background:
-      linear-gradient(160deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .72)),
-      radial-gradient(circle at 25% 20%, rgba(47, 143, 98, .35), transparent 44%),
-      url('../../hero-placementimage.png') center/cover no-repeat,
-      linear-gradient(120deg, #1a3a2b 0%, #0f1412 55%, #050505 100%);
-  }
-  .intro,
-  .services,
-  .location-reviews,
-  .contact,
-  .reviews-panel,
-  .estimate-panel,
-  .site-footer {
-    background: linear-gradient(165deg, #183428 0%, #214634 52%, #171a19 100%);
-  }
-  .cards article,
-  .dropdown-menu {
-    background: linear-gradient(165deg, #101f19 0%, #162a21 56%, #0d1110 100%);
-  }
+/* Steel Emerald: cool metallic neutrals with emerald brand accents */
+:root {
+  --green: #0d7a58;
+  --green-soft: #56a688;
+  --charcoal: #161c24;
+  --ink: #07090c;
+  --silver: #c3ced8;
+  --container-text: #eef5fb;
+  --muted-text: #d5dfeb;
+  --nav-link: #dde8f2;
+}
+.hero {
+  background:
+    linear-gradient(160deg, rgba(0, 0, 0, .62), rgba(0, 0, 0, .76)),
+    radial-gradient(circle at 24% 20%, rgba(86, 166, 136, .33), transparent 44%),
+    url('../../hero-placementimage.png') center/cover no-repeat,
+    linear-gradient(120deg, #253243 0%, #18202a 58%, #07090c 100%);
+}
+.intro,
+.services,
+.location-reviews,
+.contact,
+.reviews-panel,
+.estimate-panel,
+.site-footer {
+  background: linear-gradient(165deg, #1e2a36 0%, #233444 52%, #10151c 100%);
+}
+.cards article,
+.dropdown-menu {
+  background: linear-gradient(165deg, #16212b 0%, #1d2d3a 56%, #0d1218 100%);
+}
+.btn.primary,
+.theme-toggle,
+.social-links a,
+.footer-links a {
+  background: linear-gradient(145deg, #56a688, #0d7a58);
+}
+.btn.ghost {
+  background: rgba(11, 18, 26, .52);
+}
 
-  /* Curated 2026 Theme: Executive Emerald */
-  :root {
-    --green: #0c7a4f;
-    --green-soft: #3da678;
-    --container-text: #ecf7f1;
-    --muted-text: #d8e9df;
-    --nav-link: #e3efe8;
-  }
-  [data-theme="dark"] {
-    --page-bg: linear-gradient(158deg, #0f241b 0%, #0d1512 46%, #030404 100%);
-  }
-  .hero {
-    background:
-      linear-gradient(158deg, rgba(0, 0, 0, .63), rgba(0, 0, 0, .78)),
-      radial-gradient(circle at 24% 18%, rgba(61, 166, 120, .36), transparent 43%),
-      url('../../hero-placementimage.png') center/cover no-repeat,
-      linear-gradient(118deg, #16372b 0%, #111816 56%, #030404 100%);
-  }
-  .intro,
-  .services,
-  .location-reviews,
-  .contact,
-  .reviews-panel,
-  .estimate-panel,
-  .site-footer {
-    background: linear-gradient(165deg, #14352a 0%, #1f4a3a 52%, #121615 100%);
-  }
-  .cards article,
-  .dropdown-menu {
-    background: linear-gradient(165deg, #10261e 0%, #17372b 56%, #0c0f0e 100%);
-  }
-  .btn.primary,
-  .theme-toggle,
-  .social-links a,
-  .footer-links a {
-    background: linear-gradient(145deg, #3da678, #0c7a4f);
-  }
+/* Unified green-black backdrop with steel container treatment */
+[data-theme="dark"] {
+  --page-bg: linear-gradient(160deg, #14271d 0%, #111613 48%, #050505 100%);
+  --page-text: #f3faf6;
+}
+.hero {
+  background:
+    linear-gradient(160deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .72)),
+    radial-gradient(circle at 25% 20%, rgba(47, 143, 98, .35), transparent 44%),
+    url('../../hero-placementimage.png') center/cover no-repeat,
+    linear-gradient(120deg, #1a3a2b 0%, #0f1412 55%, #050505 100%);
+}
+.intro,
+.services,
+.location-reviews,
+.contact,
+.reviews-panel,
+.estimate-panel,
+.site-footer {
+  background: linear-gradient(165deg, #22313d 0%, #2b3f4d 52%, #151c24 100%);
+}
+.cards article,
+.dropdown-menu {
+  background: linear-gradient(165deg, #192633 0%, #243545 56%, #10161d 100%);
+}
 
-/* Visual v3: Emerald Command */
-[data-theme="dark"] { --page-bg: linear-gradient(160deg, #10261c 0%, #101513 46%, #030404 100%); }
+/* Curated 2026 Theme: Steel Slate Emerald */
+:root {
+  --green: #0f7f63;
+  --green-soft: #5ab89a;
+  --container-text: #eef5fb;
+  --muted-text: #d6e0ea;
+  --nav-link: #e0e9f2;
+}
+[data-theme="dark"] {
+  --page-bg: linear-gradient(160deg, #12231c 0%, #10171d 46%, #040506 100%);
+}
+.hero {
+  background:
+    linear-gradient(160deg, rgba(0, 0, 0, .62), rgba(0, 0, 0, .76)),
+    radial-gradient(circle at 24% 18%, rgba(90, 184, 154, .34), transparent 43%),
+    url('../../hero-placementimage.png') center/cover no-repeat,
+    linear-gradient(120deg, #213648 0%, #151f2a 56%, #040506 100%);
+}
+.intro,
+.services,
+.location-reviews,
+.contact,
+.reviews-panel,
+.estimate-panel,
+.site-footer {
+  background: linear-gradient(165deg, #213242 0%, #2b4255 52%, #141b23 100%);
+}
+.cards article,
+.dropdown-menu {
+  background: linear-gradient(165deg, #182635 0%, #24384a 56%, #0e141b 100%);
+}
+.btn.primary,
+.theme-toggle,
+.social-links a,
+.footer-links a {
+  background: linear-gradient(145deg, #5ab89a, #0f7f63);
+}
+
+/* Visual v3: Steel Harbor */
+[data-theme="dark"] { --page-bg: linear-gradient(160deg, #10211a 0%, #111821 46%, #030507 100%); }
 .hero {
   background:
     linear-gradient(160deg, rgba(0, 0, 0, .64), rgba(0, 0, 0, .8)),
-    radial-gradient(circle at 22% 18%, rgba(64, 186, 134, .36), transparent 41%),
+    radial-gradient(circle at 24% 16%, rgba(118, 203, 178, .34), transparent 42%),
+    radial-gradient(circle at 82% 10%, rgba(114, 159, 210, .24), transparent 36%),
     url('../../hero-placementimage.png') center/cover no-repeat,
-    linear-gradient(118deg, #174032 0%, #131b18 56%, #030404 100%);
+    linear-gradient(120deg, #233c52 0%, #182638 56%, #030507 100%);
 }
 .intro,.services,.location-reviews,.contact,.reviews-panel,.estimate-panel,.site-footer {
-  background: linear-gradient(165deg, #174133 0%, #215543 52%, #121715 100%);
+  background: linear-gradient(165deg, #20364b 0%, #2a4661 52%, #131d2a 100%);
 }
 .cards article,.dropdown-menu {
-  background: linear-gradient(165deg, #113126 0%, #1b4435 56%, #0c100e 100%);
+  background: linear-gradient(165deg, #17293a 0%, #223a51 56%, #0d1620 100%);
 }

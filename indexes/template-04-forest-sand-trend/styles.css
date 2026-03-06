@@ -415,82 +415,130 @@ main {
   }
 }
 
-  /* Unified green-black backdrop with classic emerald container treatment */
-  [data-theme="dark"] {
-    --page-bg: linear-gradient(160deg, #14271d 0%, #111613 48%, #050505 100%);
-    --page-text: #f3faf6;
-  }
-  .hero {
-    background:
-      linear-gradient(160deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .72)),
-      radial-gradient(circle at 25% 20%, rgba(47, 143, 98, .35), transparent 44%),
-      url('../../hero-placementimage.png') center/cover no-repeat,
-      linear-gradient(120deg, #1a3a2b 0%, #0f1412 55%, #050505 100%);
-  }
-  .intro,
-  .services,
-  .location-reviews,
-  .contact,
-  .reviews-panel,
-  .estimate-panel,
-  .site-footer {
-    background: linear-gradient(165deg, #183428 0%, #214634 52%, #171a19 100%);
-  }
-  .cards article,
-  .dropdown-menu {
-    background: linear-gradient(165deg, #101f19 0%, #162a21 56%, #0d1110 100%);
-  }
+/* Forest Sand: earthy trend palette while keeping green + black brand anchors */
+:root {
+  --green: #2d6b44;
+  --green-soft: #7f9c67;
+  --charcoal: #1a1713;
+  --ink: #090807;
+  --silver: #d5c7ae;
+  --container-text: #f2eadc;
+  --muted-text: #e2d5bf;
+  --nav-link: #f0e4d1;
+}
+.hero {
+  background:
+    linear-gradient(160deg, rgba(0, 0, 0, .62), rgba(0, 0, 0, .74)),
+    radial-gradient(circle at 24% 18%, rgba(127, 156, 103, .34), transparent 43%),
+    url('../../hero-placementimage.png') center/cover no-repeat,
+    linear-gradient(120deg, #3a2e22 0%, #1c1914 58%, #090807 100%);
+}
+.intro,
+.services,
+.location-reviews,
+.contact,
+.reviews-panel,
+.estimate-panel,
+.site-footer {
+  background: linear-gradient(165deg, #30261b 0%, #263224 52%, #141310 100%);
+}
+.cards article,
+.dropdown-menu {
+  background: linear-gradient(165deg, #2a2218 0%, #202b1f 56%, #11100d 100%);
+}
+.btn.primary,
+.theme-toggle,
+.social-links a,
+.footer-links a {
+  background: linear-gradient(145deg, #6f8f59, #2d6b44);
+}
+.btn.ghost {
+  background: rgba(24, 18, 13, .48);
+}
 
-  /* Curated 2026 Theme: Executive Emerald */
-  :root {
-    --green: #0c7a4f;
-    --green-soft: #3da678;
-    --container-text: #ecf7f1;
-    --muted-text: #d8e9df;
-    --nav-link: #e3efe8;
-  }
-  [data-theme="dark"] {
-    --page-bg: linear-gradient(158deg, #0f241b 0%, #0d1512 46%, #030404 100%);
-  }
-  .hero {
-    background:
-      linear-gradient(158deg, rgba(0, 0, 0, .63), rgba(0, 0, 0, .78)),
-      radial-gradient(circle at 24% 18%, rgba(61, 166, 120, .36), transparent 43%),
-      url('../../hero-placementimage.png') center/cover no-repeat,
-      linear-gradient(118deg, #16372b 0%, #111816 56%, #030404 100%);
-  }
-  .intro,
-  .services,
-  .location-reviews,
-  .contact,
-  .reviews-panel,
-  .estimate-panel,
-  .site-footer {
-    background: linear-gradient(165deg, #14352a 0%, #1f4a3a 52%, #121615 100%);
-  }
-  .cards article,
-  .dropdown-menu {
-    background: linear-gradient(165deg, #10261e 0%, #17372b 56%, #0c0f0e 100%);
-  }
-  .btn.primary,
-  .theme-toggle,
-  .social-links a,
-  .footer-links a {
-    background: linear-gradient(145deg, #3da678, #0c7a4f);
-  }
+/* Unified green-black backdrop with forest-sand container treatment */
+[data-theme="dark"] {
+  --page-bg: linear-gradient(160deg, #14271d 0%, #111613 48%, #050505 100%);
+  --page-text: #f3faf6;
+}
+.hero {
+  background:
+    linear-gradient(160deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .72)),
+    radial-gradient(circle at 25% 20%, rgba(47, 143, 98, .35), transparent 44%),
+    url('../../hero-placementimage.png') center/cover no-repeat,
+    linear-gradient(120deg, #1a3a2b 0%, #0f1412 55%, #050505 100%);
+}
+.intro,
+.services,
+.location-reviews,
+.contact,
+.reviews-panel,
+.estimate-panel,
+.site-footer {
+  background: linear-gradient(165deg, #3a2f22 0%, #46543b 52%, #1a1b16 100%);
+}
+.cards article,
+.dropdown-menu {
+  background: linear-gradient(165deg, #2d241a 0%, #394531 56%, #12120f 100%);
+}
 
-/* Visual v3: Emerald Command */
-[data-theme="dark"] { --page-bg: linear-gradient(160deg, #10261c 0%, #101513 46%, #030404 100%); }
+/* Curated 2026 Theme: Forest Sand Contemporary */
+:root {
+  --green: #2a7148;
+  --green-soft: #8ec9a8;
+  --container-text: #f2ebdf;
+  --muted-text: #e3d7c4;
+  --nav-link: #efe4d3;
+}
+[data-theme="dark"] {
+  --page-bg: linear-gradient(160deg, #14241b 0%, #131919 46%, #040403 100%);
+}
 .hero {
   background:
     linear-gradient(160deg, rgba(0, 0, 0, .64), rgba(0, 0, 0, .8)),
-    radial-gradient(circle at 22% 18%, rgba(64, 186, 134, .36), transparent 41%),
+    radial-gradient(circle at 24% 17%, rgba(142, 201, 168, .34), transparent 43%),
     url('../../hero-placementimage.png') center/cover no-repeat,
-    linear-gradient(118deg, #174032 0%, #131b18 56%, #030404 100%);
+    linear-gradient(120deg, #21473a 0%, #16282a 56%, #040403 100%);
+}
+.intro,
+.services,
+.location-reviews,
+.contact,
+.reviews-panel,
+.estimate-panel,
+.site-footer {
+  background: linear-gradient(165deg, #1b4a3a 0%, #24614b 52%, #13201b 100%);
+}
+.cards article,
+.dropdown-menu {
+  background: linear-gradient(165deg, #14392d 0%, #1d4f3e 56%, #0b1512 100%);
+}
+.btn.primary,
+.theme-toggle,
+.social-links a,
+.footer-links a {
+  background: linear-gradient(145deg, #8ec9a8, #2a7148);
+}
+
+/* Visual v3: Alpine Pine (No Brown) */
+:root {
+  --green: #23724d;
+  --green-soft: #8ec9a8;
+  --container-text: #eef8f2;
+  --muted-text: #d8ebe0;
+  --nav-link: #e3f0e8;
+}
+[data-theme="dark"] { --page-bg: linear-gradient(160deg, #10251b 0%, #101719 46%, #030404 100%); }
+.hero {
+  background:
+    linear-gradient(160deg, rgba(0, 0, 0, .64), rgba(0, 0, 0, .8)),
+    radial-gradient(circle at 22% 16%, rgba(142, 201, 168, .32), transparent 42%),
+    url('../../hero-placementimage.png') center/cover no-repeat,
+    linear-gradient(120deg, #21473a 0%, #16282a 56%, #030404 100%);
 }
 .intro,.services,.location-reviews,.contact,.reviews-panel,.estimate-panel,.site-footer {
-  background: linear-gradient(165deg, #174133 0%, #215543 52%, #121715 100%);
+  background: linear-gradient(165deg, #1b4a3a 0%, #24614b 52%, #13201b 100%);
 }
 .cards article,.dropdown-menu {
-  background: linear-gradient(165deg, #113126 0%, #1b4435 56%, #0c100e 100%);
+  background: linear-gradient(165deg, #14392d 0%, #1d4f3e 56%, #0b1512 100%);
 }
