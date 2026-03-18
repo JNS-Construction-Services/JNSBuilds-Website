@@ -599,6 +599,10 @@ section h2 {
   border-radius: var(--radius-card);
   padding: 28px 24px;
   transition: border-color 0.25s, box-shadow 0.25s, transform 0.2s;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
 }
 
 .service-card:hover {
