@@ -86,7 +86,6 @@ button {
 .hero {
   position: relative;
   min-height: 60vh;
-  max-height: 60vh;
   display: flex;
   flex-direction: column;
   background: url('images/hero.webp') center / cover no-repeat;
@@ -1129,6 +1128,10 @@ section h2 {
     padding: 0 18px;
   }
 
+  .section-services .container {
+    padding: 36px 18px;
+  }
+
   section {
     padding: 52px 0;
   }
@@ -1157,6 +1160,12 @@ section h2 {
 @media (max-width: 720px) {
   .service-cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 420px) {
+  .service-cards {
+    grid-template-columns: 1fr;
   }
 }
 
