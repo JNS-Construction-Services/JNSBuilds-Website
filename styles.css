@@ -89,7 +89,7 @@ button {
   max-height: 60vh;
   display: flex;
   flex-direction: column;
-  background: url('images/hero-placementimage.png') center / cover no-repeat;
+  background: url('images/hero.webp') center / cover no-repeat;
 }
 
 .hero-overlay {
