@@ -88,7 +88,7 @@ button {
   min-height: 60vh;
   display: flex;
   flex-direction: column;
-  background: url('images/hero.webp') center / cover no-repeat;
+  background: url('images/jns-construction-services-hero.webp') center / cover no-repeat;
 }
 
 .hero-overlay {
@@ -544,6 +544,12 @@ section h2 {
   color: var(--lime);
   font-weight: 800;
   font-size: 1rem;
+}
+
+@media (max-width: 1199px) {
+  .hero {
+    background-image: url('images/jns-construction-services-hero-mobile.webp');
+  }
 }
 
 @media (max-width: 768px) {
@@ -1771,5 +1777,63 @@ section h2 {
 
   .service-sidebar-inner > * {
     flex: 1 1 240px;
+  }
+}
+
+/* ─── FAQ Section ──────────────────────────────────────────── */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.faq-item {
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.faq-item summary.faq-q {
+  cursor: pointer;
+  list-style: none;
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  user-select: none;
+}
+
+.faq-item summary.faq-q::-webkit-details-marker { display: none; }
+
+.faq-item summary.faq-q::after {
+  content: "+";
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--lime);
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.faq-item[open] summary.faq-q::after {
+  content: "\2212";
+}
+
+.faq-item p {
+  padding: 0 1.25rem 1rem;
+  margin: 0;
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+  .faq-item summary.faq-q {
+    padding: 0.875rem 1rem;
+  }
+  .faq-item p {
+    padding: 0 1rem 0.875rem;
   }
 }
