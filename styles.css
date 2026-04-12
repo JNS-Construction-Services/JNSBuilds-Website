@@ -578,10 +578,23 @@ section h2 {
 
 .section-services .container {
   max-width: 1990px;
-  background: transparent;
-  border-radius: 0;
+  background: linear-gradient(170deg,
+    #e8eaeb 0%,
+    #c8cbcd 18%,
+    #b0b4b7 35%,
+    #d6d9db 50%,
+    #a8acaf 65%,
+    #bfc3c6 80%,
+    #dde0e2 100%
+  );
+  border-radius: 18px;
   padding: 52px 52px;
-  box-shadow: none;
+  box-shadow:
+    0 2px 0 rgba(255,255,255,0.9),
+    0 8px 24px rgba(0,0,0,0.22),
+    0 20px 60px rgba(0,0,0,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.8),
+    inset 0 -2px 6px rgba(0,0,0,0.12);
 }
 
 .section-services .container h2,
@@ -858,11 +871,11 @@ section h2 {
 
 .license-note {
   font-size: 0.74rem;
-  color: var(--text-dim);
+  color: var(--text-muted);
   letter-spacing: 0.04em;
 }
 
-.footer-col h4 {
+.footer-col h3 {
   font-size: 0.82rem;
   font-weight: 700;
   color: var(--text);
@@ -924,7 +937,7 @@ section h2 {
 .copyright {
   text-align: center;
   font-size: 0.76rem;
-  color: var(--text-dim);
+  color: var(--text-muted);
   padding-top: 24px;
   border-top: 1px solid var(--border);
 }
