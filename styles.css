@@ -362,7 +362,7 @@ button {
   font-size: clamp(2rem, 4.5vw, 3.4rem);
   font-weight: 800;
   line-height: 1.08;
-  background: linear-gradient(135deg, #c9ff1f, #ffffff, #c9ff1f);
+  background: linear-gradient(135deg, #7fda22, #ffffff, #7fda22);
   background-size: 200% 200%;
   background-clip: text;
   -webkit-background-clip: text;
