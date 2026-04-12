@@ -570,31 +570,15 @@ section h2 {
 
 /* ─── SERVICES ───────────────────────────────────────────────── */
 .section-services {
-  background: linear-gradient(145deg, #f8f6f1 0%, #ede9e0 40%, #f4f1ea 100%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.9), inset 0 -1px 0 rgba(0,0,0,0.08);
-  border-top: 1px solid rgba(0,0,0,0.1);
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  background: transparent;
 }
 
 .section-services .container {
   max-width: 1990px;
-  background: linear-gradient(170deg,
-    #e8eaeb 0%,
-    #c8cbcd 18%,
-    #b0b4b7 35%,
-    #d6d9db 50%,
-    #a8acaf 65%,
-    #bfc3c6 80%,
-    #dde0e2 100%
-  );
-  border-radius: 18px;
+  background: transparent;
+  border-radius: 0;
   padding: 52px 52px;
-  box-shadow:
-    0 2px 0 rgba(255,255,255,0.9),
-    0 8px 24px rgba(0,0,0,0.22),
-    0 20px 60px rgba(0,0,0,0.15),
-    inset 0 1px 0 rgba(255,255,255,0.8),
-    inset 0 -2px 6px rgba(0,0,0,0.12);
+  box-shadow: none;
 }
 
 .section-services .container h2,
