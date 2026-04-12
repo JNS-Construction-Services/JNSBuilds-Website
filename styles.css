@@ -1168,6 +1168,10 @@ section h2 {
     padding: 52px 0;
   }
 
+  .hero {
+    max-height: 45vh;
+  }
+
   .hero-content h1 {
     font-size: 1.85rem;
   }
