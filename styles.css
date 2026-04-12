@@ -193,6 +193,11 @@ button {
   to   { opacity: 1; }
 }
 
+@keyframes jns-shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
 /* ─── NAV ────────────────────────────────────────────────────── */
 .top-nav {
   position: relative;
@@ -357,10 +362,14 @@ button {
   font-size: clamp(2rem, 4.5vw, 3.4rem);
   font-weight: 800;
   line-height: 1.08;
-  color: #ffffff;
+  background: linear-gradient(135deg, #c9ff1f, #ffffff, #c9ff1f);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: jns-shimmer 4s ease-in-out infinite;
   margin-bottom: 18px;
   max-width: 1480px;
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.72);
 }
 
 .hero-sub {
