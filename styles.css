@@ -665,6 +665,24 @@ section h2 {
   margin-bottom: 18px;
 }
 
+.estimate-form-heading {
+  font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.estimate-form-sub {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.estimate-form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .estimate-form-col {
   background: linear-gradient(160deg, #0c1c12 0%, #071009 52%, #020503 100%);
   border-radius: 18px;
@@ -714,11 +732,6 @@ section h2 {
 }
 
 /* ── Estimate form ─────────────────────────────────────────── */
-.estimate-form-col > p {
-  font-size: 0.9rem;
-  color: var(--text-muted);
-  margin-bottom: 22px;
-}
 
 .estimate-form {
   display: flex;
