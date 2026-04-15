@@ -235,7 +235,7 @@ button {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
   flex-wrap: nowrap;
 }
 
@@ -319,7 +319,7 @@ button {
   justify-content: center;
   flex-shrink: 0;
   min-height: 46px;
-  padding: 10px 22px;
+  padding: 10px 32px;
   border-radius: var(--radius-pill);
   border: 1px solid rgba(255, 255, 255, 0.32);
   background: var(--red-call);
@@ -328,6 +328,7 @@ button {
   font-size: 0.97rem;
   font-weight: 700;
   white-space: nowrap;
+  letter-spacing: 0.02em;
   transition: background 0.2s, border-color 0.2s;
 }
 
