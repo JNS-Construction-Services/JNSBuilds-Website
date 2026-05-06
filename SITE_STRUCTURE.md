@@ -74,9 +74,7 @@ Located one level above `jns-v2/` at the site root:
 
 | Location | Placeholder | Replace With |
 |----------|-------------|--------------|
-| All pages nav + footer | `(555) 010-0000` / `+15550100000` | Real phone number |
 | `index.html` form | `YOUR_FORM_ID` in Formspree action URL | Real Formspree form ID |
-| `index.html` JSON-LD schema | `[REPLACE WITH REAL PHONE]` | Real phone number |
 | All pages footer | `href="#"` on Facebook, Instagram, LinkedIn | Real social media URLs |
 
 ---

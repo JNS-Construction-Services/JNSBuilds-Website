@@ -57,7 +57,7 @@ git push origin main
 GitHub Pages rebuilds automatically (~1 min). Always wait for user to confirm the changes work locally before pushing.
 
 ## Known Placeholder Values (to fix before launch)
-- Phone number: `(555) 010-0000` — needs real number from client
+- Phone number: `(727) 265-1120` / `+17272651120` — confirmed
 - Email: `projects@jnsconstructionfl.com` — confirmed by client
 - Social links: placeholder `#` hrefs in footer — need real URLs
 - Google Maps embed: placeholder `src` — needs real embed URL
