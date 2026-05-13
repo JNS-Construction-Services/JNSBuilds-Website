@@ -1,8 +1,27 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L28E0GQHBV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-L28E0GQHBV');
+  </script>
+  
+  <!-- Microsoft Clarity (TODO: Replace wnhtr2nn8g with actual Clarity ID) -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "wnhtr2nn8g");
+  </script>
+  
   <title>JNS Construction Services | Licensed Contractor &mdash; Palm Harbor, FL</title>
   <meta name="description" content="JNS Construction Services LLC &mdash; licensed contractor in Palm Harbor, FL (CRC1334879). General construction, renovations, repairs, and project coordination. Free estimates." />
   <meta name="robots" content="index, follow" />
@@ -86,6 +105,95 @@
   <link rel="icon" type="image/png" href="/images/Logo_CMYK-01.png" />
   <link rel="shortcut icon" href="/images/Logo_CMYK-01.png" />
   <link rel="apple-touch-icon" href="/images/Logo_CMYK-01.png" />
+
+  <!-- WebSite Schema (signals sitelinks eligibility to Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://jnsbuilds.com/#website",
+    "name": "JNS Construction Services",
+    "alternateName": "JNS Construction Services LLC",
+    "url": "https://jnsbuilds.com",
+    "description": "Licensed general contractor serving Pinellas County with renovation, repair, and construction services.",
+    "inLanguage": "en-US",
+    "publisher": {
+      "@type": "Organization",
+      "name": "JNS Construction Services LLC",
+      "url": "https://jnsbuilds.com"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://jnsbuilds.com/contact?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- SiteNavigationElement Schema (tells Google which pages matter most) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "JNS Construction Services Site Navigation",
+    "itemListElement": [
+      {
+        "@type": "SiteLinksSearchBox",
+        "url": "https://jnsbuilds.com",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://jnsbuilds.com/contact?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- SiteNavigationElement Schema -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "SiteNavigationElement",
+      "name": "Services",
+      "url": "https://jnsbuilds.com/#services"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SiteNavigationElement",
+      "name": "General Construction",
+      "url": "https://jnsbuilds.com/services/general-construction"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SiteNavigationElement",
+      "name": "Renovations & Upgrades",
+      "url": "https://jnsbuilds.com/services/renovations-upgrades"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SiteNavigationElement",
+      "name": "Repairs & Corrective Work",
+      "url": "https://jnsbuilds.com/services/repairs-corrective-work"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SiteNavigationElement",
+      "name": "About",
+      "url": "https://jnsbuilds.com/about"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SiteNavigationElement",
+      "name": "Contact",
+      "url": "https://jnsbuilds.com/contact"
+    }
+  ]
+  </script>
 </head>
 <body>
 
@@ -288,7 +396,7 @@
           </nav>
         </div>
       </div>
-      <p class="copyright">&copy; 2026 JNS Construction Services LLC. All rights reserved.</p>
+      <p class="copyright">&copy; 2026 JNS Construction Services LLC. All rights reserved. &nbsp;&middot;&nbsp; <a href="https://knightlogics.com" rel="noopener noreferrer" style="color:inherit;text-decoration:none;opacity:.7;">Site by Knight Logics</a></p>
     </div>
   </footer>
 
