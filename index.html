@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L28E0GQHBV"></script>
   <script>
@@ -12,8 +12,8 @@
     gtag('js', new Date());
     gtag('config', 'G-L28E0GQHBV');
   </script>
-  
-  <!-- Microsoft Clarity (TODO: Replace wnhtr2nn8g with actual Clarity ID) -->
+
+  <!-- Microsoft Clarity -->
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -21,18 +21,16 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "wnhtr2nn8g");
   </script>
-  
+
   <title>JNS Construction Services | Licensed Contractor &mdash; Palm Harbor, FL</title>
   <meta name="description" content="JNS Construction Services LLC &mdash; licensed contractor in Palm Harbor, FL (CRC1334879). General construction, renovations, repairs, and project coordination. Free estimates." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://jnsbuilds.com" />
-  <meta name="theme-color" content="#090c10" />
+  <meta name="theme-color" content="#060d08" />
 
-  <!-- Preload hero image for LCP -->
-  <link rel="preload" as="image" href="images/jns-construction-services-hero.webp" fetchpriority="high"
-        media="(min-width: 1200px)" />
-  <link rel="preload" as="image" href="images/jns-construction-services-hero-mobile.webp" fetchpriority="high"
-        media="(max-width: 1199px)" />
+  <!-- Preload hero for LCP -->
+  <link rel="preload" as="image" href="images/jns-construction-services-hero.webp" fetchpriority="high" media="(min-width: 1200px)" />
+  <link rel="preload" as="image" href="images/jns-construction-services-hero-mobile.webp" fetchpriority="high" media="(max-width: 1199px)" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="JNS Construction Services | Palm Harbor, FL" />
@@ -92,180 +90,324 @@
     "hasCredential": "Florida Certified Residential Contractor License CRC1334879",
     "priceRange": "$$",
     "openingHours": "Mo-Fr 08:00-17:00",
-    "sameAs": [
-      "https://www.facebook.com/profile.php?id=61583647410047"
-    ]
+    "sameAs": ["https://www.facebook.com/profile.php?id=61583647410047"]
   }
   </script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="icon" type="image/png" href="/images/Logo_CMYK-01.png" />
-  <link rel="shortcut icon" href="/images/Logo_CMYK-01.png" />
-  <link rel="apple-touch-icon" href="/images/Logo_CMYK-01.png" />
-
-  <!-- WebSite Schema (signals sitelinks eligibility to Google) -->
+  <!-- FAQ Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https://jnsbuilds.com/#website",
-    "name": "JNS Construction Services",
-    "alternateName": "JNS Construction Services LLC",
-    "url": "https://jnsbuilds.com",
-    "description": "Licensed general contractor serving Pinellas County with renovation, repair, and construction services.",
-    "inLanguage": "en-US",
-    "publisher": {
-      "@type": "Organization",
-      "name": "JNS Construction Services LLC",
-      "url": "https://jnsbuilds.com"
-    },
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://jnsbuilds.com/contact?q={search_term_string}"
-      },
-      "query-input": "required name=search_term_string"
-    }
-  }
-  </script>
-
-  <!-- SiteNavigationElement Schema (tells Google which pages matter most) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "JNS Construction Services Site Navigation",
-    "itemListElement": [
+    "@type": "FAQPage",
+    "mainEntity": [
       {
-        "@type": "SiteLinksSearchBox",
-        "url": "https://jnsbuilds.com",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://jnsbuilds.com/contact?q={search_term_string}",
-          "query-input": "required name=search_term_string"
+        "@type": "Question",
+        "name": "Do you provide free estimates?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We provide a free site consultation and a written estimate before work begins. The estimate outlines the scope, materials, exclusions, and pricing so expectations are clear up front."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are you licensed and insured?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. JNS Construction Services LLC operates under Florida Certified Residential Contractor License CRC1334879 and carries insurance. License standing is publicly verifiable through the Florida DBPR."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What areas do you serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We are based in Palm Harbor and serve Pinellas County and surrounding areas, including Dunedin, Tarpon Springs, Clearwater, Safety Harbor, Oldsmar, New Port Richey, and nearby communities."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you handle permits?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When a project requires permits, we coordinate the permit path, inspection scheduling, and close-out requirements as part of the written scope."
         }
       }
     ]
   }
   </script>
 
-  <!-- SiteNavigationElement Schema -->
-  <script type="application/ld+json">
-  [
-    {
-      "@context": "https://schema.org",
-      "@type": "SiteNavigationElement",
-      "name": "Services",
-      "url": "https://jnsbuilds.com/#services"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "SiteNavigationElement",
-      "name": "General Construction",
-      "url": "https://jnsbuilds.com/services/general-construction"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "SiteNavigationElement",
-      "name": "Renovations & Upgrades",
-      "url": "https://jnsbuilds.com/services/renovations-upgrades"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "SiteNavigationElement",
-      "name": "Repairs & Corrective Work",
-      "url": "https://jnsbuilds.com/services/repairs-corrective-work"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "SiteNavigationElement",
-      "name": "About",
-      "url": "https://jnsbuilds.com/about"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "SiteNavigationElement",
-      "name": "Contact",
-      "url": "https://jnsbuilds.com/contact"
-    }
-  ]
-  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" type="image/png" href="/images/Logo_CMYK-01.png" />
+  <link rel="shortcut icon" href="/images/Logo_CMYK-01.png" />
+  <link rel="apple-touch-icon" href="/images/Logo_CMYK-01.png" />
 </head>
 <body>
 
-  <!-- --------------------------- HERO --------------------------- -->
-  <header id="home" class="hero">
-    <div class="hero-overlay"></div>
+  <!-- ============================================================
+       STICKY HEADER
+       ============================================================ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="JNS Construction Services home">
+        <img src="images/Logo_WHITE-01.png" alt="JNS Construction Services" class="brand-logo" width="80" height="80" />
+      </a>
 
-    <nav class="top-nav">
-      <div class="nav-backdrop" id="nav-backdrop"></div>
-      <div class="nav-left">
-        <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <a href="/" class="nav-logo">
-          <img src="images/Logo_WHITE-01.png" alt="JNS Construction Services logo" width="100" height="100" />
-        </a>
-      </div>
-
-      <div class="nav-links" id="nav-links">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <!-- Services dropdown &mdash; .has-dropdown is purely a positioning wrapper -->
-        <div class="has-dropdown">
-          <a href="#services" class="dropdown-toggle">Services &#9660;</a>
-          <div class="dropdown-menu" role="menu">
-            <a href="/services/general-construction" role="menuitem">General Construction</a>
-            <a href="/services/renovations-upgrades" role="menuitem">Renovations &amp; Upgrades</a>
-            <a href="/services/repairs-corrective-work" role="menuitem">Repairs &amp; Corrective Work</a>
-            <a href="/services/project-coordination" role="menuitem">Project Coordination</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="/" aria-current="page">Home</a>
+        <div class="nav-dropdown-wrap">
+          <button class="nav-dropdown-btn" aria-expanded="false" aria-haspopup="true">
+            Services
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/services/general-construction.html" role="menuitem">General Construction</a>
+            <a href="/services/renovations-upgrades.html" role="menuitem">Renovations &amp; Upgrades</a>
+            <a href="/services/repairs-corrective-work.html" role="menuitem">Repairs &amp; Corrective Work</a>
+            <a href="/services/project-coordination.html" role="menuitem">Project Coordination</a>
           </div>
         </div>
-        <a href="/contact">Contact</a>
-      </div>
+        <a href="/about.html">About</a>
+        <a href="/gallery.html">Our Work</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
 
-      <a href="tel:+17272651120" class="btn-call">Call Now</a>
-    </nav>
+      <a class="header-cta" href="tel:+17272651120">
+        <span class="header-cta-label">Call or Text</span>
+        <span class="header-cta-number">(727) 265-1120</span>
+      </a>
 
-    <div class="hero-content">
-      <p class="eyebrow">Licensed &bull; Professional &bull; Field-Led</p>
-      <h1>Construction Services<br>You Can Count On</h1>
-      <p class="hero-sub">Serving Pinellas County and surrounding areas with reliable construction, renovation, and repair solutions. Transparent pricing. Written estimates. Field-led execution.</p>
-      <div class="cta-row">
-        <a href="/contact" class="btn btn-primary">Get Your Free Estimate</a>
-        <a href="#services" class="btn btn-ghost">Explore Services</a>
-      </div>
-      <ul class="trust-ticks">
-        <li>License #CRC1334879</li>
-        <li>Residential &amp; Light Commercial</li>
-        <li>Clear Scope &amp; Communication</li>
-      </ul>
+      <button class="hamburger-btn" id="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </header>
 
   <main>
 
-    <!-- --------------------------- ABOUT --------------------------- -->
-    <section id="about" class="section-about">
-      <div class="container">
-        <div class="about-grid">
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero">
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-inner">
 
-          <div class="about-text">
-            <h2>Palm Harbor's Licensed Construction Partner</h2>
-            <p>JNS Construction Services LLC is a certified residential contractor serving homeowners and select commercial clients across Pinellas County and surrounding areas. Led in the field by company President, Nathanial Combs, and Field Supervisor, Connor McCollum, every project gets clear communication and hands-on attention from start to finish.</p>
-            <p>From corrective repairs to full renovations, we show up on time, work to a written scope, and don't close a job until the work is done right. One point of contact. Transparent pricing. No surprises.</p>
-            <a href="/about" class="btn btn-primary">More About Us</a>
+        <div class="hero-copy">
+          <p class="eyebrow">Licensed &bull; Professional &bull; Field-Led</p>
+          <h1>JNS<br>Construction<br><span class="h1-accent">Services</span></h1>
+          <p class="hero-sub">
+            Serving Pinellas County and surrounding areas with reliable construction, renovation, and repair solutions.
+            Transparent pricing. Written estimates. Field-led execution.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/contact.html">Get a Free Estimate</a>
+            <a class="btn btn-ghost" href="#services">Our Services</a>
+          </div>
+          <div class="trust-row">
+            <div class="trust-item">
+              <strong>CRC1334879</strong>
+              <span>Florida Licensed</span>
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <strong>Written</strong>
+              <span>Scopes &amp; Estimates</span>
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <strong>Local</strong>
+              <span>Palm Harbor Based</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Get a free estimate">
+          <p class="card-eyebrow">Get a free estimate</p>
+          <h2 class="card-name">Talk to JNS Today</h2>
+          <p class="card-note">Fill out the form and we'll get back to you to discuss your project.</p>
+
+          <form
+            class="contact-form"
+            action="https://formsubmit.co/projects@jnsconstructionfl.com"
+            method="POST"
+            id="hero-contact-form"
+          >
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+            <input type="hidden" name="_subject" value="JNS Construction &mdash; Estimate Request" />
+            <input type="hidden" name="_captcha" value="false" />
+            <div class="form-group">
+              <label for="hf-name">Your Name</label>
+              <input type="text" id="hf-name" name="name" placeholder="First and last name" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="hf-phone">Phone Number</label>
+              <input type="tel" id="hf-phone" name="phone" placeholder="(727) 000-0000" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="hf-service">Service Needed</label>
+              <select id="hf-service" name="service" required>
+                <option value="" disabled selected>Select a service...</option>
+                <option>General Construction</option>
+                <option>Renovations &amp; Upgrades</option>
+                <option>Repairs &amp; Corrective Work</option>
+                <option>Project Coordination</option>
+                <option>Not sure &mdash; need advice</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="hf-message">Tell us about your project</label>
+              <textarea id="hf-message" name="message" placeholder="What needs to be done? Location, scope, timeline..." rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send My Request</button>
+            <p class="form-note">Or call directly: <a href="tel:+17272651120">(727) 265-1120</a></p>
+          </form>
+
+          <div class="form-success" id="form-success" aria-live="polite" hidden>
+            <p class="form-success-msg">Thanks! We'll be in touch shortly.</p>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECT GALLERY
+         ============================================================ -->
+    <section id="gallery" class="gallery-section section-shell">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Our work</p>
+          <h2>Project Gallery</h2>
+          <p>Real photos from JNS Construction Services projects across Pinellas County and surrounding areas.</p>
+        </div>
+        <div class="gallery-carousel" id="gallery-carousel">
+          <button class="carousel-btn carousel-prev" id="carousel-prev" aria-label="Previous projects">&#8592;</button>
+          <div class="carousel-overflow">
+            <div class="carousel-track" id="carousel-track">
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_9621.jpeg" data-caption="Completed construction project detail"><img src="Gallery/IMG_9621.jpeg" alt="Completed construction project detail by JNS" loading="lazy"></a><figcaption>Finished Work</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_8632.jpeg" data-caption="Renovation project detail"><img src="Gallery/IMG_8632.jpeg" alt="Renovation project detail by JNS" loading="lazy"></a><figcaption>Renovation Detail</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_8212.jpeg" data-caption="Corrective repair project"><img src="Gallery/IMG_8212.jpeg" alt="Corrective repair project by JNS" loading="lazy"></a><figcaption>Repair Work</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_8209.jpeg" data-caption="Construction progress photo"><img src="Gallery/IMG_8209.jpeg" alt="Construction progress photo by JNS" loading="lazy"></a><figcaption>Progress Photo</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_6301 (1).jpeg" data-caption="Interior project detail"><img src="Gallery/IMG_6301 (1).jpeg" alt="Interior project detail by JNS" loading="lazy"></a><figcaption>Interior Scope</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_1365.jpeg" data-caption="Construction jobsite photo"><img src="Gallery/IMG_1365.jpeg" alt="Construction jobsite photo by JNS" loading="lazy"></a><figcaption>Jobsite Detail</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_1362.jpeg" data-caption="Project finish detail"><img src="Gallery/IMG_1362.jpeg" alt="Project finish detail by JNS" loading="lazy"></a><figcaption>Finish Detail</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_1360.jpeg" data-caption="Renovation progress detail"><img src="Gallery/IMG_1360.jpeg" alt="Renovation progress detail by JNS" loading="lazy"></a><figcaption>Renovation Progress</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_1358.jpeg" data-caption="Construction repair detail"><img src="Gallery/IMG_1358.jpeg" alt="Construction repair detail by JNS" loading="lazy"></a><figcaption>Repair Detail</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/Grey Modern Home Before After Instagram Post.PNG" data-caption="Before and after construction project"><img src="Gallery/Grey Modern Home Before After Instagram Post.PNG" alt="Before and after construction project by JNS" loading="lazy"></a><figcaption>Before &amp; After</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/Gray Minimalist Before After Photo Collage Instagram Post.PNG" data-caption="Before and after project collage"><img src="Gallery/Gray Minimalist Before After Photo Collage Instagram Post.PNG" alt="Before and after project collage by JNS" loading="lazy"></a><figcaption>Before &amp; After</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_0365.jpeg" data-caption="Completed project photo"><img src="Gallery/IMG_0365.jpeg" alt="Completed project photo by JNS" loading="lazy"></a><figcaption>Completed Project</figcaption></figure>
+            </div><!-- /carousel-track -->
+          </div><!-- /carousel-overflow -->
+          <button class="carousel-btn carousel-next" id="carousel-next" aria-label="Next projects">&#8594;</button>
+          <div class="carousel-dots" id="carousel-dots"></div>
+        </div><!-- /gallery-carousel -->
+        <div class="work-cta">
+          <a class="btn btn-ghost" href="/gallery.html">View Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES
+         ============================================================ -->
+    <section id="services" class="services-section section-shell">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">What we do</p>
+          <h2>Professional Construction Services</h2>
+          <p>From corrective repairs to full renovations &mdash; handled with written scopes and reliable scheduling.</p>
+        </div>
+        <div class="services-grid">
+
+          <a class="service-card" href="/services/general-construction.html" data-reveal>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <h3>General Construction</h3>
+            <p>New builds, additions, framing, and structural work executed with quality materials and consistent communication throughout.</p>
+          </a>
+
+          <a class="service-card" href="/services/renovations-upgrades.html" data-reveal>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <h3>Renovations &amp; Upgrades</h3>
+            <p>Kitchen, bathroom, and whole-home remodels built around long-term functionality and real-world value for Pinellas County homeowners.</p>
+          </a>
+
+          <a class="service-card" href="/services/repairs-corrective-work.html" data-reveal>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                <line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/>
+              </svg>
+            </div>
+            <h3>Repairs &amp; Corrective Work</h3>
+            <p>Code corrections, damage repairs, and deferred maintenance handled fully and correctly the first time &mdash; no shortcuts.</p>
+          </a>
+
+          <a class="service-card" href="/services/project-coordination.html" data-reveal>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                <line x1="9" y1="16" x2="9" y2="16" stroke-width="2.5"/><line x1="15" y1="16" x2="15" y2="16" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <h3>Project Coordination</h3>
+            <p>Subcontractor management, scheduling, and budget oversight &mdash; one point of contact through project completion.</p>
+          </a>
+
+          <a class="service-card" href="/about.html" data-reveal>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+            <h3>Licensed &amp; Insured</h3>
+            <p>Florida Certified Residential Contractor License CRC1334879 &mdash; active, insured, and verifiable through the Florida DBPR.</p>
+          </a>
+
+          <a class="service-card" href="/contact.html" data-reveal>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.79 19.79 19.79 0 0113 2.18a2 2 0 012 2v3a2 2 0 01-2 2 4.04 4.04 0 01-1.08-.16 14.5 14.5 0 006.26 6.26A4.04 4.04 0 0120 14.92a2 2 0 012 2z"/>
+              </svg>
+            </div>
+            <h3>Free Estimates</h3>
+            <p>On-site consultation, written scope, and clear pricing before any work begins. No surprise costs, no vague allowances.</p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section class="about-section section-shell">
+      <div class="container">
+        <div class="about-grid" data-reveal>
+
+          <div class="about-copy">
+            <p class="eyebrow">Who we are</p>
+            <h2>Palm Harbor&rsquo;s Licensed Construction Partner</h2>
+            <p>JNS Construction Services LLC is a certified residential contractor serving homeowners and select commercial clients across Pinellas County and surrounding areas. Led in the field by company President Nathanial Combs and Field Supervisor Connor McCollum, every project gets clear communication and hands-on attention from start to finish.</p>
+            <p>From corrective repairs to full renovations, we show up on time, work to a written scope, and don&rsquo;t close a job until the work is done right. One point of contact. Transparent pricing. No surprises.</p>
+            <a href="/about.html" class="btn btn-primary">More About Us</a>
           </div>
 
-          <div class="about-creds">
+          <div class="about-card">
             <h3>Our Credentials &amp; Guarantees</h3>
-            <ul class="creds-list">
+            <ul class="about-list">
               <li>Florida Licensed &amp; DBPR Verified &mdash; CRC1334879</li>
               <li>Registered &amp; Insured</li>
               <li>Written Estimates &mdash; No Surprise Costs</li>
@@ -274,85 +416,43 @@
               <li>Residential &amp; Light Commercial</li>
               <li>Transparent &amp; Competitive Pricing</li>
             </ul>
+            <a href="/contact.html" class="btn btn-ghost btn-full">Request a Free Estimate</a>
           </div>
 
         </div>
       </div>
     </section>
 
-    <!-- --------------------------- SERVICES --------------------------- -->
-    <section id="services" class="section-services">
+    </section>
+
+    <!-- ============================================================
+         MAP — FIND US
+         ============================================================ -->
+    <section id="contact" class="map-section section-shell">
       <div class="container">
-        <h2>Our Services</h2>
-        <p class="section-sub">From corrective repairs to full renovations &mdash; handled with written scopes and reliable scheduling.</p>
-        <div class="service-cards">
-          <a id="service-general" class="service-card" href="/services/general-construction">
-            <div class="card-icon">&#127959;&#65039;</div>
-            <h3>General Construction</h3>
-            <p>New builds, additions, framing, and structural work executed with quality materials and consistent communication.</p>
-          </a>
-          <a id="service-renovations" class="service-card" href="/services/renovations-upgrades">
-            <div class="card-icon">&#128296;</div>
-            <h3>Renovations &amp; Upgrades</h3>
-            <p>Kitchen, bathroom, and whole-home remodels built around long-term functionality and real-world value.</p>
-          </a>
-          <a id="service-repairs" class="service-card" href="/services/repairs-corrective-work">
-            <div class="card-icon">&#128295;</div>
-            <h3>Repairs &amp; Corrective Work</h3>
-            <p>Code corrections, damage repairs, and deferred maintenance handled fully and correctly the first time.</p>
-          </a>
-          <a id="service-coordination" class="service-card" href="/services/project-coordination">
-            <div class="card-icon">&#128203;</div>
-            <h3>Project Coordination</h3>
-            <p>Subcontractor management, scheduling, and budget oversight &mdash; one point of contact through completion.</p>
-          </a>
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Our location</p>
+          <h2>Find Us</h2>
+          <p>Based in Palm Harbor &mdash; serving Pinellas County and surrounding areas.</p>
+        </div>
+        <div class="map-full">
+          <iframe
+            src="https://maps.google.com/maps?q=Palm+Harbor,+FL+34684&output=embed&z=13"
+            title="JNS Construction Services location"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </section>
 
-    <!-- --------------------------- CONTACT / LOCATION --------------------------- -->
-    <section id="contact" class="section-contact">
+    <!-- ============================================================
+         REVIEWS
+         ============================================================ -->
+    <section id="reviews" class="reviews-section section-shell">
       <div class="container">
-        <div class="contact-grid">
-
-          <div class="contact-info">
-            <h2>Find Us</h2>
-            <div class="map-embed">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.6690889014617!2d-82.73805349999999!3d28.095635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2f342226189c9%3A0x538c37d53c1dc79f!2sJNS%20Construction%20Services%20LLC!5e0!3m2!1sen!2sus!4v1772663193716!5m2!1sen!2sus"
-                title="JNS Construction Services location"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                style="border:0;"
-                allowfullscreen="">
-              </iframe>
-            </div>
-          </div>
-
-          <div class="estimate-form-wrapper">
-            <h2 class="estimate-form-heading">Request a Free Estimate</h2>
-            <div class="estimate-form-col">
-            <form class="estimate-form" action="https://formsubmit.co/projects@jnsconstructionfl.com" method="POST">
-              <!-- Honeypot &mdash; hidden from real users, catches bots -->
-              <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" />
-              <input type="hidden" name="_subject" value="JNS Construction &mdash; Estimate Request" />
-              <label>Full Name *<input type="text" name="fullName" required /></label>
-              <label>Email Address *<input type="email" name="email" required /></label>
-              <label>Phone Number *<input type="tel" name="phone" required /></label>
-              <label>Service Needed<input type="text" name="serviceNeeded" placeholder="e.g. Kitchen remodel, roof repair..." /></label>
-              <label>Project Details *<textarea name="projectDetails" rows="4" required placeholder="Brief description of the work needed..."></textarea></label>
-              <button type="submit" class="btn btn-primary">Send Request</button>
-            </form>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- --------------------------- REVIEWS --------------------------- -->
-    <section id="reviews" class="section-reviews">
-      <div class="container">
+        <p class="eyebrow">What clients say</p>
         <h2>Reviews &amp; Feedback</h2>
         <p>We appreciate every customer review and use feedback to continuously improve our work.</p>
         <div class="review-cta-row">
@@ -362,10 +462,88 @@
       </div>
     </section>
 
+    <!-- ============================================================
+         FAQ
+         ============================================================ -->
+    <section id="faq" class="faq-section section-shell">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Common questions</p>
+          <h2>Frequently Asked Questions</h2>
+          <p>Straight answers about estimates, service areas, licensing, and how JNS manages projects.</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a1">
+              Do you provide free estimates?
+              <span class="faq-chevron" aria-hidden="true">&#8964;</span>
+            </button>
+            <div class="faq-answer" id="faq-a1" aria-hidden="true" inert>
+              <div class="faq-answer-inner">
+                <p>Yes. We provide a free site consultation and a written estimate before work begins. The estimate outlines the scope, materials, exclusions, and pricing so expectations are clear up front.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a2">
+              Are you licensed and insured?
+              <span class="faq-chevron" aria-hidden="true">&#8964;</span>
+            </button>
+            <div class="faq-answer" id="faq-a2" aria-hidden="true" inert>
+              <div class="faq-answer-inner">
+                <p>Yes. JNS Construction Services LLC operates under Florida Certified Residential Contractor License CRC1334879 and carries insurance. License standing is publicly verifiable through the Florida DBPR.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a3">
+              What areas do you serve?
+              <span class="faq-chevron" aria-hidden="true">&#8964;</span>
+            </button>
+            <div class="faq-answer" id="faq-a3" aria-hidden="true" inert>
+              <div class="faq-answer-inner">
+                <p>We are based in Palm Harbor and serve Pinellas County and surrounding areas, including Dunedin, Tarpon Springs, Clearwater, Safety Harbor, Oldsmar, New Port Richey, and nearby communities.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a4">
+              Do you handle permits?
+              <span class="faq-chevron" aria-hidden="true">&#8964;</span>
+            </button>
+            <div class="faq-answer" id="faq-a4" aria-hidden="true" inert>
+              <div class="faq-answer-inner">
+                <p>When a project requires permits, we coordinate the permit path, inspection scheduling, and close-out requirements as part of the written scope.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a5">
+              How long before work can start?
+              <span class="faq-chevron" aria-hidden="true">&#8964;</span>
+            </button>
+            <div class="faq-answer" id="faq-a5" aria-hidden="true" inert>
+              <div class="faq-answer-inner">
+                <p>Timeline varies by project scope and current schedule. After the site visit we&rsquo;ll give you a realistic start window. We don&rsquo;t commit to a start date we can&rsquo;t keep.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <!-- --------------------------- FOOTER --------------------------- -->
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
   <footer class="site-footer">
+    <div class="areas-strip">
+      <div class="container">
+        <p class="eyebrow">Service area</p>
+        <p><strong>Palm Harbor &middot; Dunedin &middot; Tarpon Springs &middot; Clearwater &middot; Safety Harbor &middot; Oldsmar &middot; New Port Richey &middot; Pinellas County &middot; Pasco County</strong></p>
+      </div>
+    </div>
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
@@ -375,12 +553,14 @@
         </div>
         <div class="footer-col footer-col--center">
           <h3>Quick Links</h3>
-          <nav class="footer-links" aria-label="Footer navigation">
-            <a href="/contact">Contact Us</a>
-            <a href="/privacy-policy">Privacy Policy</a>
-            <a href="/terms-of-service">Terms of Service</a>
-            <a href="/payment-policy">Payment Policy</a>
-            <a href="/refund-policy">Refund Policy</a>
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="/contact.html">Contact Us</a>
+            <a href="/gallery.html">Project Gallery</a>
+            <a href="/about.html">About</a>
+            <a href="/privacy-policy.html">Privacy Policy</a>
+            <a href="/terms-of-service.html">Terms of Service</a>
+            <a href="/payment-policy.html">Payment Policy</a>
+            <a href="/refund-policy.html">Refund Policy</a>
           </nav>
         </div>
         <div class="footer-col footer-col--right">
@@ -388,50 +568,45 @@
           <p><a href="tel:+17272651120">(727) 265-1120</a></p>
           <p><a href="mailto:projects@jnsconstructionfl.com">projects@jnsconstructionfl.com</a></p>
           <nav class="footer-social" aria-label="Social media links">
-            <!-- Facebook -->
             <a href="https://www.facebook.com/profile.php?id=61583647410047" aria-label="Facebook" class="social-icon-btn" target="_blank" rel="noopener noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.791-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.884v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
             </a>
-
           </nav>
         </div>
       </div>
-      <p class="copyright">&copy; 2026 JNS Construction Services LLC. All rights reserved. &nbsp;&middot;&nbsp; <a href="https://knightlogics.com" rel="noopener noreferrer" style="color:inherit;text-decoration:none;opacity:.7;">Site by Knight Logics</a></p>
+      <p class="copyright">&copy; 2026 JNS Construction Services LLC. All rights reserved. &nbsp;&middot;&nbsp; <a href="https://knightlogics.com" rel="noopener noreferrer" style="color:inherit;text-decoration:none;opacity:.6;">Site by Knight Logics</a></p>
     </div>
   </footer>
 
-  <script>
-    const hamburger   = document.getElementById('hamburger');
-    const navLinks    = document.getElementById('nav-links');
-    const backdrop    = document.getElementById('nav-backdrop');
+  <!-- ============================================================
+       MOBILE NAV DRAWER
+       ============================================================ -->
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <img src="images/Logo_WHITE-01.png" alt="JNS Construction Services" class="mobile-nav-logo" width="60" height="60" />
+      <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close navigation menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/gallery.html">Our Work</a>
+      <button class="mobile-services-toggle" aria-expanded="false">Services &#9660;</button>
+      <div class="mobile-services-sub" id="mobile-services-sub">
+        <a href="/services/general-construction.html">General Construction</a>
+        <a href="/services/renovations-upgrades.html">Renovations &amp; Upgrades</a>
+        <a href="/services/repairs-corrective-work.html">Repairs &amp; Corrective Work</a>
+        <a href="/services/project-coordination.html">Project Coordination</a>
+      </div>
+      <a href="/contact.html">Contact</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <a href="tel:+17272651120" class="mobile-nav-cta">Call (727) 265-1120</a>
+    </div>
+  </nav>
 
-    function openMenu() {
-      navLinks.classList.add('nav-open');
-      backdrop.classList.add('backdrop-show');
-      hamburger.classList.add('is-open');
-      hamburger.setAttribute('aria-expanded', 'true');
-      hamburger.setAttribute('aria-label', 'Close navigation menu');
-    }
-
-    function closeMenu() {
-      navLinks.classList.remove('nav-open');
-      backdrop.classList.remove('backdrop-show');
-      hamburger.classList.remove('is-open');
-      hamburger.setAttribute('aria-expanded', 'false');
-      hamburger.setAttribute('aria-label', 'Open navigation menu');
-    }
-
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.contains('nav-open') ? closeMenu() : openMenu();
-    });
-
-    backdrop.addEventListener('click', closeMenu);
-
-    // Close on any nav link click
-    navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', closeMenu);
-    });
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>

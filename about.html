@@ -24,7 +24,7 @@
   <meta name="theme-color" content="#090c10" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="icon" type="image/png" href="/images/Logo_CMYK-01.png" />
   <link rel="shortcut icon" href="/images/Logo_CMYK-01.png" />
@@ -58,48 +58,68 @@
     "hasCredential": "Florida Certified Residential Contractor License CRC1334879"
   }
   </script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L28E0GQHBV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-L28E0GQHBV');
+  </script>
+
+  <!-- Microsoft Clarity (TODO: Replace wnhtr2nn8g with actual Clarity ID) -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "wnhtr2nn8g");
+  </script>
 </head>
 <body>
 
-  <header class="inner-hero">
-    <nav class="top-nav">
-      <div class="nav-backdrop" id="nav-backdrop"></div>
-      <div class="nav-left">
-        <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <a href="/" class="nav-logo">
-          <img src="images/Logo_WHITE-01.png" alt="JNS Construction Services logo" width="100" height="100" />
-        </a>
-      </div>
-      <div class="nav-links" id="nav-links">
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="JNS Construction Services home">
+        <img src="images/Logo_WHITE-01.png" alt="JNS Construction Services" class="brand-logo" width="80" height="80" />
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
         <a href="/">Home</a>
-        <a href="/about" aria-current="page">About</a>
-        <div class="has-dropdown">
-          <a href="/#services" class="dropdown-toggle">Services &#9660;</a>
-          <div class="dropdown-menu" role="menu">
-            <a href="/services/general-construction" role="menuitem">General Construction</a>
-            <a href="/services/renovations-upgrades" role="menuitem">Renovations &amp; Upgrades</a>
-            <a href="/services/repairs-corrective-work" role="menuitem">Repairs &amp; Corrective Work</a>
-            <a href="/services/project-coordination" role="menuitem">Project Coordination</a>
+        <div class="nav-dropdown-wrap">
+          <button class="nav-dropdown-btn" aria-expanded="false" aria-haspopup="true">
+            Services
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/services/general-construction.html" role="menuitem">General Construction</a>
+            <a href="/services/renovations-upgrades.html" role="menuitem">Renovations &amp; Upgrades</a>
+            <a href="/services/repairs-corrective-work.html" role="menuitem">Repairs &amp; Corrective Work</a>
+            <a href="/services/project-coordination.html" role="menuitem">Project Coordination</a>
           </div>
         </div>
-        <a href="/contact">Contact</a>
-      </div>
-      <a href="tel:+17272651120" class="btn-call">Call Now</a>
-    </nav>
-    <div class="page-title-bar">
-      <p class="page-breadcrumb">
-        <a href="/">Home</a>
-        <span>&rsaquo;</span>
-        About
-      </p>
-      <h1>About JNS Construction</h1>
-      <p class="page-sub">A licensed, field-led contractor committed to clear communication, written scopes, and work that holds up &mdash; serving Pinellas County and surrounding areas.</p>
+        <a href="/about.html" aria-current="page">About</a>
+        <a href="/gallery.html">Our Work</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+      <a class="header-cta" href="tel:+17272651120">
+        <span class="header-cta-label">Call or Text</span>
+        <span class="header-cta-number">(727) 265-1120</span>
+      </a>
+      <button class="hamburger-btn" id="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
+
+  <section class="inner-hero">
+    <div class="container">
+      <div class="page-title-bar">
+        <p class="page-breadcrumb"><a href="/">Home</a><span>&rsaquo;</span>About</p>
+        <h1>About JNS Construction</h1>
+        <p class="page-sub">A licensed, field-led contractor committed to clear communication, written scopes, and work that holds up &mdash; serving Pinellas County and surrounding areas.</p>
+      </div>
+    </div>
+  </section>
 
   <main>
 
@@ -343,13 +363,82 @@
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section class="inner-section service-faq">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">About JNS</p>
+          <h2>Frequently Asked Questions</h2>
+          <p>Short answers about leadership, licensing, project types, and what clients can expect before work begins.</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-about-1">
+              Who oversees projects at JNS Construction Services?
+              <span class="faq-chevron" aria-hidden="true">&#8964;</span>
+            </button>
+            <div class="faq-answer" id="faq-about-1" aria-hidden="true" inert>
+              <div class="faq-answer-inner">
+                <p>Projects are field-led by company President Nathanial Combs and Field Supervisor Connor McCollum. Clients work with a contractor team that stays connected to the project instead of disappearing after the estimate is signed.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-about-2">
+              Are you licensed and insured?
+              <span class="faq-chevron" aria-hidden="true">&#8964;</span>
+            </button>
+            <div class="faq-answer" id="faq-about-2" aria-hidden="true" inert>
+              <div class="faq-answer-inner">
+                <p>Yes. JNS Construction Services LLC operates under Florida Certified Residential Contractor License CRC1334879 and carries insurance documentation that can be provided before work begins. License standing is publicly verifiable through Florida DBPR.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-about-3">
+              What types of projects do you take on?
+              <span class="faq-chevron" aria-hidden="true">&#8964;</span>
+            </button>
+            <div class="faq-answer" id="faq-about-3" aria-hidden="true" inert>
+              <div class="faq-answer-inner">
+                <p>JNS handles general construction, renovations and upgrades, repairs and corrective work, and project coordination for homeowners and select light commercial clients across Pinellas County and surrounding areas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-about-4">
+              Do you provide written estimates before work starts?
+              <span class="faq-chevron" aria-hidden="true">&#8964;</span>
+            </button>
+            <div class="faq-answer" id="faq-about-4" aria-hidden="true" inert>
+              <div class="faq-answer-inner">
+                <p>Yes. JNS starts with a free site consultation and follows with a written estimate covering scope, materials, exclusions, and pricing before any project moves forward.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Who oversees projects at JNS Construction Services?", "acceptedAnswer": {"@type": "Answer", "text": "Projects are field-led by company President Nathanial Combs and Field Supervisor Connor McCollum. Clients work with a contractor team that stays connected to the project instead of disappearing after the estimate is signed."}},
+          {"@type": "Question", "name": "Are you licensed and insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. JNS Construction Services LLC operates under Florida Certified Residential Contractor License CRC1334879 and carries insurance documentation that can be provided before work begins. License standing is publicly verifiable through Florida DBPR."}},
+          {"@type": "Question", "name": "What types of projects do you take on?", "acceptedAnswer": {"@type": "Answer", "text": "JNS handles general construction, renovations and upgrades, repairs and corrective work, and project coordination for homeowners and select light commercial clients across Pinellas County and surrounding areas."}},
+          {"@type": "Question", "name": "Do you provide written estimates before work starts?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. JNS starts with a free site consultation and follows with a written estimate covering scope, materials, exclusions, and pricing before any project moves forward."}}
+        ]
+      }
+      </script>
+    </section>
+
     <!-- CTA -->
     <section class="inner-cta">
       <div class="container">
         <h2>Ready to Work with a Contractor You Can Trust?</h2>
         <p>Free site visit. Honest scope assessment. Clear written proposal &mdash; no pressure.</p>
         <div class="cta-row">
-          <a href="/contact" class="btn btn-primary">Request a Free Estimate</a>
+          <a href="/contact.html" class="btn btn-primary">Request a Free Estimate</a>
           <a href="tel:+17272651120" class="btn btn-ghost">Call (727) 265-1120</a>
         </div>
       </div>
@@ -368,11 +457,12 @@
         <div class="footer-col footer-col--center">
           <h3>Quick Links</h3>
           <nav class="footer-links" aria-label="Footer navigation">
-            <a href="/contact">Contact Us</a>
-            <a href="/privacy-policy">Privacy Policy</a>
-            <a href="/terms-of-service">Terms of Service</a>
-            <a href="/payment-policy">Payment Policy</a>
-            <a href="/refund-policy">Refund Policy</a>
+            <a href="/contact.html">Contact Us</a>
+            <a href="/gallery.html">Project Gallery</a>
+            <a href="/privacy-policy.html">Privacy Policy</a>
+            <a href="/terms-of-service.html">Terms of Service</a>
+            <a href="/payment-policy.html">Payment Policy</a>
+            <a href="/refund-policy.html">Refund Policy</a>
           </nav>
         </div>
         <div class="footer-col footer-col--right">
@@ -391,37 +481,31 @@
     </div>
   </footer>
 
-  <script>
-    const hamburger = document.getElementById('hamburger');
-    const navLinks  = document.getElementById('nav-links');
-    const backdrop  = document.getElementById('nav-backdrop');
-
-    function openMenu() {
-      navLinks.classList.add('nav-open');
-      backdrop.classList.add('backdrop-show');
-      hamburger.classList.add('is-open');
-      hamburger.setAttribute('aria-expanded', 'true');
-      hamburger.setAttribute('aria-label', 'Close navigation menu');
-    }
-
-    function closeMenu() {
-      navLinks.classList.remove('nav-open');
-      backdrop.classList.remove('backdrop-show');
-      hamburger.classList.remove('is-open');
-      hamburger.setAttribute('aria-expanded', 'false');
-      hamburger.setAttribute('aria-label', 'Open navigation menu');
-    }
-
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.contains('nav-open') ? closeMenu() : openMenu();
-    });
-
-    backdrop.addEventListener('click', closeMenu);
-
-    navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', closeMenu);
-    });
-  </script>
-
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <img src="images/Logo_WHITE-01.png" alt="JNS Construction Services" class="mobile-nav-logo" width="60" height="60" />
+      <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close navigation menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="/">Home</a>
+      <a href="/about.html" aria-current="page">About</a>
+      <a href="/gallery.html">Our Work</a>
+      <button class="mobile-services-toggle" aria-expanded="false">Services &#9660;</button>
+      <div class="mobile-services-sub" id="mobile-services-sub">
+        <a href="/services/general-construction.html">General Construction</a>
+        <a href="/services/renovations-upgrades.html">Renovations &amp; Upgrades</a>
+        <a href="/services/repairs-corrective-work.html">Repairs &amp; Corrective Work</a>
+        <a href="/services/project-coordination.html">Project Coordination</a>
+      </div>
+      <a href="/contact.html">Contact</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <a href="tel:+17272651120" class="mobile-nav-cta">Call (727) 265-1120</a>
+    </div>
+  </nav>
+  <script src="script.js"></script>
 </body>
 </html>
