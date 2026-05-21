@@ -212,6 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var dotsWrap = document.getElementById("carousel-dots");
     var items    = Array.prototype.slice.call(track.querySelectorAll(".gallery-item"));
     var current  = 0;
+    var itemW    = 0; // cached item width, read before DOM mutations
 
     function getVisible() {
       return window.innerWidth <= 600 ? 1 : window.innerWidth <= 960 ? 2 : 4;
@@ -243,7 +244,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function goTo(idx) {
       current = Math.max(0, Math.min(idx, getMax()));
-      var itemW = items[0].offsetWidth + 16;
       track.style.transform = "translateX(-" + (current * itemW) + "px)";
       prevBtn.disabled = current === 0;
       nextBtn.disabled = current >= getMax();
@@ -253,6 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
     prevBtn.addEventListener("click", function () { goTo(current - 1); });
     nextBtn.addEventListener("click", function () { goTo(current + 1); });
 
+    itemW = items[0].offsetWidth + 16; // read before buildDots mutates DOM
     buildDots();
     goTo(0);
 
@@ -260,6 +261,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("resize", function () {
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(function () {
+        itemW = items[0].offsetWidth + 16; // read before DOM mutations
         buildDots();
         goTo(Math.min(current, getMax()));
       }, 120);
