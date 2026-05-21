@@ -4,22 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L28E0GQHBV"></script>
+  <!-- Google Analytics (deferred to after load to avoid blocking LCP) -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-L28E0GQHBV');
+    window.addEventListener('load', function() {
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-L28E0GQHBV';
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-L28E0GQHBV');
+    });
   </script>
 
-  <!-- Microsoft Clarity -->
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
+  <!-- Microsoft Clarity (deferred) -->
+  <script>
+    window.addEventListener('load', function() {
+      (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "wnhtr2nn8g");
+      })(window,document,'clarity','script','wnhtr2nn8g');
+    });
   </script>
 
   <title>JNS Construction Services | Licensed Contractor &mdash; Palm Harbor, FL</title>
@@ -273,7 +280,12 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
   <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" /></noscript>
-  <link rel="stylesheet" href="./styles.css" />
+  <!-- Preload first carousel image (LCP candidate) -->
+  <link rel="preload" as="image" href="Gallery/IMG_9621.jpeg" fetchpriority="high" />
+  <!-- Non-blocking stylesheet -->
+  <link rel="preload" href="./styles.css" as="style" />
+  <link rel="stylesheet" href="./styles.css" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="./styles.css" /></noscript>
   <link rel="icon" type="image/png" href="/images/Logo_CMYK-01.png" />
   <link rel="shortcut icon" href="/images/Logo_CMYK-01.png" />
   <link rel="apple-touch-icon" href="/images/Logo_CMYK-01.png" />
@@ -422,9 +434,9 @@
           <button class="carousel-btn carousel-prev" id="carousel-prev" aria-label="Previous projects">&#8592;</button>
           <div class="carousel-overflow">
             <div class="carousel-track" id="carousel-track">
-          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_9621.jpeg" data-caption="Completed construction project detail"><img src="Gallery/IMG_9621.jpeg" alt="Completed construction project detail by JNS" loading="lazy"></a><figcaption>Finished Work</figcaption></figure>
-          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_8632.jpeg" data-caption="Renovation project detail"><img src="Gallery/IMG_8632.jpeg" alt="Renovation project detail by JNS" loading="lazy"></a><figcaption>Renovation Detail</figcaption></figure>
-          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_8212.jpeg" data-caption="Corrective repair project"><img src="Gallery/IMG_8212.jpeg" alt="Corrective repair project by JNS" loading="lazy"></a><figcaption>Repair Work</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_9621.jpeg" data-caption="Completed construction project detail"><img src="Gallery/IMG_9621.jpeg" alt="Completed construction project detail by JNS" fetchpriority="high"></a><figcaption>Finished Work</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_8632.jpeg" data-caption="Renovation project detail"><img src="Gallery/IMG_8632.jpeg" alt="Renovation project detail by JNS"></a><figcaption>Renovation Detail</figcaption></figure>
+          <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_8212.jpeg" data-caption="Corrective repair project"><img src="Gallery/IMG_8212.jpeg" alt="Corrective repair project by JNS"></a><figcaption>Repair Work</figcaption></figure>
           <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_8209.jpeg" data-caption="Construction progress photo"><img src="Gallery/IMG_8209.jpeg" alt="Construction progress photo by JNS" loading="lazy"></a><figcaption>Progress Photo</figcaption></figure>
           <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_6301 (1).jpeg" data-caption="Interior project detail"><img src="Gallery/IMG_6301 (1).jpeg" alt="Interior project detail by JNS" loading="lazy"></a><figcaption>Interior Scope</figcaption></figure>
           <figure class="gallery-item"><a class="gallery-img-link" href="Gallery/IMG_1365.jpeg" data-caption="Construction jobsite photo"><img src="Gallery/IMG_1365.jpeg" alt="Construction jobsite photo by JNS" loading="lazy"></a><figcaption>Jobsite Detail</figcaption></figure>
@@ -741,6 +753,6 @@
     </div>
   </nav>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
