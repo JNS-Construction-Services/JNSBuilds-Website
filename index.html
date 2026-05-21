@@ -62,14 +62,21 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "GeneralContractor",
+    "@type": ["GeneralContractor", "LocalService"],
+    "@id": "https://jnsbuilds.com/#business",
     "name": "JNS Construction Services LLC",
     "url": "https://jnsbuilds.com",
     "logo": "https://jnsbuilds.com/images/Logo_CMYK-01.png",
     "image": "https://jnsbuilds.com/images/jns-og-image.jpg",
     "description": "Licensed residential contractor serving Pinellas County and surrounding areas with renovation, repair, and general construction services.",
+    "mainEntityOfPage": "https://jnsbuilds.com",
     "telephone": "+17272651120",
     "email": "projects@jnsconstructionfl.com",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Florida Certified Residential Contractor License",
+      "value": "CRC1334879"
+    },
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "35595 US Hwy 19 N, Suite 621",
@@ -84,12 +91,137 @@
       "longitude": -82.738053
     },
     "areaServed": [
-      "Palm Harbor", "Dunedin", "Tarpon Springs", "Clearwater",
-      "Safety Harbor", "Oldsmar", "New Port Richey", "Pinellas County", "Pasco County"
+      {
+        "@type": "City",
+        "name": "Palm Harbor"
+      },
+      {
+        "@type": "City",
+        "name": "Dunedin"
+      },
+      {
+        "@type": "City",
+        "name": "Tarpon Springs"
+      },
+      {
+        "@type": "City",
+        "name": "Clearwater"
+      },
+      {
+        "@type": "City",
+        "name": "Safety Harbor"
+      },
+      {
+        "@type": "City",
+        "name": "Oldsmar"
+      },
+      {
+        "@type": "City",
+        "name": "New Port Richey"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Pinellas County, FL"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Pasco County, FL"
+      }
+    ],
+    "serviceType": [
+      "General contractor",
+      "General construction",
+      "Home renovations",
+      "Kitchen remodeling",
+      "Bathroom remodeling",
+      "Repairs and corrective work",
+      "Project coordination",
+      "Home additions"
+    ],
+    "knowsAbout": [
+      "General contractor Palm Harbor FL",
+      "Contractor Palm Harbor FL",
+      "Kitchen remodel Palm Harbor FL",
+      "Bathroom remodel Palm Harbor FL",
+      "Home renovation Palm Harbor FL",
+      "Home addition Palm Harbor FL",
+      "Water damage repair Palm Harbor FL",
+      "Storm damage repair Palm Harbor FL"
     ],
     "hasCredential": "Florida Certified Residential Contractor License CRC1334879",
     "priceRange": "$$",
     "openingHours": "Mo-Fr 08:00-17:00",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+17272651120",
+        "email": "projects@jnsconstructionfl.com",
+        "availableLanguage": "English",
+        "areaServed": ["Pinellas County, FL", "Pasco County, FL"],
+        "url": "https://jnsbuilds.com/contact"
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "telephone": "+17272651120",
+        "email": "projects@jnsconstructionfl.com",
+        "availableLanguage": "English",
+        "url": "https://jnsbuilds.com/contact"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Construction and renovation services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "General Construction",
+            "url": "https://jnsbuilds.com/services/general-construction"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Renovations and Upgrades",
+            "url": "https://jnsbuilds.com/services/renovations-upgrades"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Repairs and Corrective Work",
+            "url": "https://jnsbuilds.com/services/repairs-corrective-work"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Project Coordination",
+            "url": "https://jnsbuilds.com/services/project-coordination"
+          }
+        }
+      ]
+    },
     "sameAs": ["https://www.facebook.com/profile.php?id=61583647410047"]
   }
   </script>
@@ -138,7 +270,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" /></noscript>
   <link rel="stylesheet" href="./styles.css" />
   <link rel="icon" type="image/png" href="/images/Logo_CMYK-01.png" />
   <link rel="shortcut icon" href="/images/Logo_CMYK-01.png" />

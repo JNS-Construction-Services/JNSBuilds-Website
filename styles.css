@@ -1611,6 +1611,10 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 720px) {
   .container { width: min(var(--container), calc(100% - 32px)); }
   .service-layout { width: min(var(--container), calc(100% - 32px)); }
+  .site-header {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
   .inner-hero .container {
     padding-top: 24px;
     padding-bottom: 28px;
@@ -1646,6 +1650,31 @@ button { font-family: inherit; cursor: pointer; }
     background-image: url("images/jns-construction-services-hero-mobile.webp");
     background-position: top center;
   }
+  .hero-inner {
+    gap: 28px;
+    padding: 40px 0 56px;
+  }
+  .hero-overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(6, 6, 6, 0.92) 0%,
+      rgba(6, 6, 6, 0.84) 48%,
+      rgba(6, 6, 6, 0.72) 100%
+    );
+  }
+  .hero-copy h1 {
+    background: none;
+    color: #fff;
+    -webkit-text-fill-color: currentColor;
+    animation: none;
+  }
+  .h1-accent { color: var(--accent); }
+  .hero-card {
+    background: #141414;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  .hero-sub { margin-bottom: 28px; }
   .contact-direct-cards { grid-template-columns: 1fr; }
 }
 
@@ -1660,6 +1689,7 @@ button { font-family: inherit; cursor: pointer; }
     row-gap: 4px;
   }
   .hero-copy h1 { font-size: clamp(2.6rem, 9vw, 4rem); }
+  .hero-inner { padding: 34px 0 48px; }
   .trust-row { gap: 16px; }
   .trust-divider { height: 36px; }
   .hero-actions { flex-direction: column; align-items: stretch; }
