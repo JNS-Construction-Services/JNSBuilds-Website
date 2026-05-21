@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
      LIGHTBOX (gallery page)
      ============================================================= */
   var lightbox = document.getElementById("gallery-lightbox");
-  if (!lightbox) return;
+  if (lightbox) {
 
   var lbImage   = lightbox.querySelector("img");
   var lbCaption = lightbox.querySelector(".lightbox-caption");
@@ -197,6 +197,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (e.key === "ArrowRight")  moveLightbox(1);
   });
 
+  } // end if (lightbox)
+
   /* =============================================================
      GALLERY CAROUSEL (homepage)
      ============================================================= */
@@ -241,7 +243,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function goTo(idx) {
       current = Math.max(0, Math.min(idx, getMax()));
-      var itemW = items[0].getBoundingClientRect().width + 16;
+      var itemW = items[0].offsetWidth + 16;
       track.style.transform = "translateX(-" + (current * itemW) + "px)";
       prevBtn.disabled = current === 0;
       nextBtn.disabled = current >= getMax();
