@@ -3,6 +3,7 @@ Allow: /
 Disallow: /.git/
 Disallow: /.github/
 Disallow: /.vscode/
+Disallow: /_archive/
 
 User-agent: GPTBot
 Allow: /

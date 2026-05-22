@@ -401,11 +401,22 @@
           <h2>Project Gallery</h2>
           <p>Real photos from JNS Construction Services projects across Pinellas County and surrounding areas.</p>
         </div>
-        <div class="gallery-grid gallery-grid--home">
-          <figure class="gallery-item"><a class="gallery-img-link" href="/gallery.html"><img src="Gallery/home-9621.webp" alt="Completed construction project detail by JNS" loading="lazy" decoding="async"></a><figcaption>Finished Work</figcaption></figure>
-          <figure class="gallery-item"><a class="gallery-img-link" href="/gallery.html"><img src="Gallery/home-8632.webp" alt="Renovation project detail by JNS" loading="lazy" decoding="async"></a><figcaption>Renovation Detail</figcaption></figure>
-          <figure class="gallery-item"><a class="gallery-img-link" href="/gallery.html"><img src="Gallery/home-8212.webp" alt="Corrective repair project by JNS" loading="lazy" decoding="async"></a><figcaption>Repair Work</figcaption></figure>
-          <figure class="gallery-item"><a class="gallery-img-link" href="/gallery.html"><img src="Gallery/home-8209.webp" alt="Construction progress photo by JNS" loading="lazy" decoding="async"></a><figcaption>Progress Photo</figcaption></figure>
+        <div class="gallery-carousel" id="gallery-carousel" data-reveal>
+          <button class="carousel-btn carousel-prev" type="button" aria-label="Show previous project photos">
+            <span aria-hidden="true">&#8592;</span>
+          </button>
+          <div class="carousel-overflow">
+            <div class="carousel-track">
+              <figure class="gallery-item carousel-slide"><a class="gallery-img-link" href="/gallery.html"><img src="Gallery/home-9621.webp" alt="Completed construction project detail by JNS" loading="lazy" decoding="async"></a><figcaption>Finished Work</figcaption></figure>
+              <figure class="gallery-item carousel-slide"><a class="gallery-img-link" href="/gallery.html"><img src="Gallery/home-8632.webp" alt="Renovation project detail by JNS" loading="lazy" decoding="async"></a><figcaption>Renovation Detail</figcaption></figure>
+              <figure class="gallery-item carousel-slide"><a class="gallery-img-link" href="/gallery.html"><img src="Gallery/home-8212.webp" alt="Corrective repair project by JNS" loading="lazy" decoding="async"></a><figcaption>Repair Work</figcaption></figure>
+              <figure class="gallery-item carousel-slide"><a class="gallery-img-link" href="/gallery.html"><img src="Gallery/home-8209.webp" alt="Construction progress photo by JNS" loading="lazy" decoding="async"></a><figcaption>Progress Photo</figcaption></figure>
+            </div>
+          </div>
+          <button class="carousel-btn carousel-next" type="button" aria-label="Show more project photos">
+            <span aria-hidden="true">&#8594;</span>
+          </button>
+          <div class="carousel-dots" aria-label="Project gallery carousel navigation"></div>
         </div>
         <div class="work-cta">
           <a class="btn btn-ghost" href="/gallery.html">View Full Gallery</a>
