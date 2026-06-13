@@ -4,8 +4,17 @@ Disallow: /.git/
 Disallow: /.github/
 Disallow: /.vscode/
 Disallow: /_archive/
+Disallow: /scripts/
+Disallow: /seo/
+Disallow: /data/
+Disallow: /Gallery/_source/
+Disallow: /_gallery-html.txt
 
 User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: Google-Extended
 Allow: /
 
 User-agent: Googlebot

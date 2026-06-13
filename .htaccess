@@ -1,0 +1,25 @@
+# JNS Construction — clean URLs, HTTPS, single canonical URL per page
+Options -Indexes
+DirectoryIndex index.html
+
+RewriteEngine On
+RewriteBase /
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# index.html → /
+RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
+RewriteRule ^index\.html$ / [R=301,L]
+
+# .html → extensionless (exclude include partials)
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteCond %1 !^(header|footer)$ [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Serve extensionless URLs from .html files on disk
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]

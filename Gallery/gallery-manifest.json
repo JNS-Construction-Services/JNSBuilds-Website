@@ -1,0 +1,236 @@
+{
+  "categories": [
+    "Kitchen Remodel",
+    "Bathroom Remodel",
+    "Before & After",
+    "Outdoor & Additions",
+    "Interior Renovation"
+  ],
+  "items": [
+    {
+      "file": "kitchen-remodel-charcoal-cabinets.webp",
+      "category": "Kitchen Remodel",
+      "title": "Kitchen Remodel \u2014 Charcoal Cabinets",
+      "description": "Custom cabinetry, quartz countertops, patterned backsplash, and paint in a modern kitchen renovation.",
+      "alt": "Kitchen Remodel Charcoal Cabinets by JNS Construction Services in Palm Harbor, FL",
+      "featured": true,
+      "carousel_order": 4
+    },
+    {
+      "file": "kitchen-remodel-full-scope.webp",
+      "category": "Kitchen Remodel",
+      "title": "Kitchen Remodel \u2014 Full Scope",
+      "description": "Complete kitchen renovation with cabinetry, countertops, flooring, backsplash, trim, lighting, paint, windows, and doors.",
+      "alt": "Kitchen Remodel Full Scope by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "kitchen-remodel-meal-prep-bar.webp",
+      "category": "Kitchen Remodel",
+      "title": "Kitchen Remodel \u2014 Custom Meal Prep Bar",
+      "description": "Kitchen renovation featuring a custom meal prep bar, cabinetry, countertops, flooring, backsplash, trim, lighting, and paint.",
+      "alt": "Kitchen Remodel Custom Meal Prep Bar by JNS Construction Services in Palm Harbor, FL",
+      "featured": true,
+      "carousel_order": 6
+    },
+    {
+      "file": "galley-kitchen-remodel.webp",
+      "category": "Kitchen Remodel",
+      "title": "Galley Kitchen Remodel",
+      "description": "Galley kitchen renovation with new cabinetry, countertops, flooring, backsplash, lighting, and paint.",
+      "alt": "Galley Kitchen Remodel by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "kitchen-remodel-before-after.webp",
+      "category": "Before & After",
+      "title": "Full Kitchen Remodel \u2014 Before & After",
+      "description": "Side-by-side before and after photos of a complete kitchen remodel.",
+      "alt": "Full Kitchen Remodel Before After by JNS Construction Services in Palm Harbor, FL",
+      "featured": true,
+      "carousel_order": 1
+    },
+    {
+      "file": "kitchen-dining-two-tone-remodel.webp",
+      "category": "Kitchen Remodel",
+      "title": "Kitchen & Dining Remodel \u2014 Two-Tone",
+      "description": "Open kitchen and dining renovation with charcoal island cabinetry, white uppers, quartz counters, and wood-look flooring.",
+      "alt": "Kitchen Dining Remodel Two Tone by JNS Construction Services in Palm Harbor, FL",
+      "featured": true,
+      "carousel_order": 3
+    },
+    {
+      "file": "small-bathroom-remodel.webp",
+      "category": "Bathroom Remodel",
+      "title": "Small Bathroom Remodel",
+      "description": "Custom shower, vanity, countertop, glass block window, lighting, flooring, trim, texture, and paint.",
+      "alt": "Small Bathroom Remodel by JNS Construction Services in Palm Harbor, FL",
+      "featured": true,
+      "carousel_order": 5
+    },
+    {
+      "file": "main-bathroom-remodel.webp",
+      "category": "Bathroom Remodel",
+      "title": "Main Bathroom Remodel",
+      "description": "Walk-in shower, custom vanity, countertop, lighting, flooring, trim, texture, and paint in a main bath renovation.",
+      "alt": "Main Bathroom Remodel by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "guest-bathroom-shower-tub-remodel.webp",
+      "category": "Bathroom Remodel",
+      "title": "Guest Bathroom Remodel \u2014 Shower-Tub",
+      "description": "Guest bath renovation with shower-tub combo, vanity, backsplash, flooring, lighting, trim, texture, and paint.",
+      "alt": "Guest Bathroom Remodel Shower Tub by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "guest-bathroom-shower-remodel.webp",
+      "category": "Bathroom Remodel",
+      "title": "Guest Bathroom Remodel \u2014 Walk-In Shower",
+      "description": "Guest bathroom update with walk-in shower, vanity, trim, texture, and paint.",
+      "alt": "Guest Bathroom Remodel Walk In Shower by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "walk-in-shower-remodel.webp",
+      "category": "Bathroom Remodel",
+      "title": "Walk-In Shower Remodel",
+      "description": "Modern walk-in shower with textured wall tile, hex floor tile, built-in niche, corner bench, and safety grab bars.",
+      "alt": "Walk In Shower Remodel by JNS Construction Services in Palm Harbor, FL",
+      "featured": true,
+      "carousel_order": 7
+    },
+    {
+      "file": "bathroom-vanity-remodel.webp",
+      "category": "Bathroom Remodel",
+      "title": "Bathroom Vanity Remodel",
+      "description": "Bathroom renovation with dark vanity cabinetry, vessel sink, decorative mirror, and wood-look flooring.",
+      "alt": "Bathroom Vanity Remodel by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "master-bathroom-double-vanity.webp",
+      "category": "Bathroom Remodel",
+      "title": "Master Bathroom \u2014 Double Vanity & Walk-In Shower",
+      "description": "Master bath remodel with double vanity, marble-look shower tile, pebble shower floor, and terracotta floor tile.",
+      "alt": "Master Bathroom Double Vanity Walk In Shower by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "bathroom-garage-addition-before-after.webp",
+      "category": "Before & After",
+      "title": "Bathroom, Mudroom & Garage Addition \u2014 Before & After",
+      "description": "Before and after collage of a main bathroom, mudroom, and two-car garage addition project.",
+      "alt": "Bathroom Mudroom Garage Addition Before After by JNS Construction Services in Palm Harbor, FL",
+      "featured": true,
+      "carousel_order": 2
+    },
+    {
+      "file": "home-renovation-before-after-1.webp",
+      "category": "Before & After",
+      "title": "Home Renovation \u2014 Before & After",
+      "description": "Before and after comparison of a full home renovation project.",
+      "alt": "Home Renovation Before After by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "home-renovation-before-after-2.webp",
+      "category": "Before & After",
+      "title": "Home Renovation \u2014 Before & After (2)",
+      "description": "Before and after collage highlighting interior and exterior renovation results.",
+      "alt": "Home Renovation Before After 2 by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "home-renovation-before-after-3.webp",
+      "category": "Before & After",
+      "title": "Renovation Collage \u2014 Before & After",
+      "description": "Minimalist before and after photo collage from a residential remodel.",
+      "alt": "Renovation Collage Before After by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "gazebo-12x12-concrete-footers.webp",
+      "category": "Outdoor & Additions",
+      "title": "12' x 12' Gazebo \u2014 Concrete Footers",
+      "description": "Custom gazebo build with poured concrete footers and full 12' x 12' structure.",
+      "alt": "12 x 12 Gazebo Concrete Footers by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "outdoor-kitchen-cabinets.webp",
+      "category": "Outdoor & Additions",
+      "title": "Outdoor Kitchen Cabinets",
+      "description": "Built-in outdoor kitchen with charcoal shaker cabinets, stone countertops, and stainless beverage fridge.",
+      "alt": "Outdoor Kitchen Cabinets by JNS Construction Services in Palm Harbor, FL",
+      "featured": true,
+      "carousel_order": 8
+    },
+    {
+      "file": "garage-remodel-workshop.webp",
+      "category": "Interior Renovation",
+      "title": "Garage Remodel \u2014 Cabinets & Workshop",
+      "description": "Multi-functional garage renovation with custom cabinetry, epoxy flooring, laundry station, and workshop area.",
+      "alt": "Garage Remodel Cabinets Workshop by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "living-room-open-concept-remodel.webp",
+      "category": "Interior Renovation",
+      "title": "Living Room \u2014 Open Concept Remodel",
+      "description": "Open living and dining renovation with vaulted ceiling, skylight, new flooring, and updated lighting.",
+      "alt": "Living Room Open Concept Remodel by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "laundry-room-built-in-cabinets.webp",
+      "category": "Interior Renovation",
+      "title": "Laundry Room \u2014 Built-In Cabinets",
+      "description": "Laundry room renovation with white shaker built-ins, stone countertop, stacked appliances, and epoxy flooring.",
+      "alt": "Laundry Room Built In Cabinets by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "sunroom-custom-cabinets.webp",
+      "category": "Interior Renovation",
+      "title": "Sunroom \u2014 Custom Cabinets",
+      "description": "Sunroom renovation with custom white cabinets, quartz countertop, and tile flooring.",
+      "alt": "Sunroom Custom Cabinets by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "interior-remodel-bedroom.webp",
+      "category": "Interior Renovation",
+      "title": "Interior Remodel \u2014 Bedroom Refresh",
+      "description": "Room renovation with new flooring, paint, recessed lighting, ceiling fan, and replacement window.",
+      "alt": "Interior Remodel Bedroom Refresh by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    },
+    {
+      "file": "laundry-room-white-cabinets.webp",
+      "category": "Interior Renovation",
+      "title": "Laundry Room Renovation",
+      "description": "Laundry room update with white shaker cabinets, utility sink, grey tile flooring, and folding station.",
+      "alt": "Laundry Room Renovation by JNS Construction Services in Palm Harbor, FL",
+      "featured": false,
+      "carousel_order": null
+    }
+  ]
+}

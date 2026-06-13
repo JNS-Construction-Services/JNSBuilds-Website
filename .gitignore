@@ -1,0 +1,9 @@
+# Local dev / audit artifacts
+*.xlsx
+lighthouse-run*.json
+_compare_run.py
+_critical_path.py
+_gallery-html.txt
+
+# Gallery originals (WebP copies are deployed)
+Gallery/_source/

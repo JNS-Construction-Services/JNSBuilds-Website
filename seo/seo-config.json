@@ -1,0 +1,140 @@
+{
+  "site": {
+    "domain": "https://jnsbuilds.com",
+    "business_id": "https://jnsbuilds.com/#business",
+    "website_id": "https://jnsbuilds.com/#website",
+    "name": "JNS Construction Services LLC",
+    "phone": "+17272651120",
+    "license": "CRC1334879",
+    "locality": "Palm Harbor",
+    "region": "FL",
+    "geo_position": "28.095635;-82.738053"
+  },
+  "pages": {
+    "index.html": {
+      "path": "/",
+      "title": "General Contractor Palm Harbor FL | JNS Construction",
+      "description": "Licensed contractor Palm Harbor FL (CRC1334879). Kitchen & bath remodels, repairs & builds in Pinellas County. Free written estimates.",
+      "keywords": "general contractor Palm Harbor, kitchen remodel Pinellas County, bathroom renovation Clearwater, licensed contractor Florida CRC1334879",
+      "og_title": "JNS Construction Services | Palm Harbor General Contractor",
+      "h1_check": "Licensed Contractor Palm Harbor",
+      "index": true,
+      "priority": "1.0",
+      "changefreq": "weekly"
+    },
+    "about.html": {
+      "path": "/about",
+      "title": "About JNS Construction | Palm Harbor Contractor",
+      "description": "Licensed Palm Harbor contractor led in the field. Kitchen, bath & whole-home remodels across Pinellas County. License CRC1334879.",
+      "keywords": "about JNS Construction, Palm Harbor contractor, Nathanial Combs contractor, Pinellas County remodeler",
+      "og_title": "About JNS Construction Services | Palm Harbor, FL",
+      "index": true,
+      "priority": "0.8",
+      "changefreq": "monthly"
+    },
+    "contact.html": {
+      "path": "/contact",
+      "title": "Contact JNS Construction | Free Estimate Palm Harbor",
+      "description": "Request a free estimate from JNS Construction in Palm Harbor. Call (727) 265-1120 for kitchen, bath & repair work in Pinellas County.",
+      "keywords": "contact JNS Construction, free estimate Palm Harbor, contractor quote Pinellas County",
+      "og_title": "Contact JNS Construction | Free Estimate",
+      "index": true,
+      "priority": "0.9",
+      "changefreq": "monthly"
+    },
+    "gallery.html": {
+      "path": "/gallery",
+      "title": "Project Gallery | JNS Construction Palm Harbor",
+      "description": "Kitchen & bath remodel photos, before-and-after projects, and renovation work by JNS across Palm Harbor and Pinellas County.",
+      "keywords": "construction gallery Palm Harbor, kitchen remodel photos, bathroom renovation before after Pinellas",
+      "og_title": "JNS Construction Project Gallery | Palm Harbor, FL",
+      "index": true,
+      "priority": "0.8",
+      "changefreq": "monthly"
+    },
+    "services/general-construction.html": {
+      "path": "/services/general-construction",
+      "title": "General Construction Contractor | Palm Harbor FL",
+      "description": "Additions, framing, build-outs & permit-managed construction in Palm Harbor and Pinellas County. Licensed CRC1334879. Free estimates.",
+      "keywords": "general construction Palm Harbor, room addition Pinellas County, residential contractor Florida",
+      "og_title": "General Construction | JNS Construction Palm Harbor",
+      "service_name": "General Construction",
+      "service_description": "Residential and light commercial general construction including additions, structural framing, build-outs, and permit-managed projects in Pinellas County.",
+      "index": true,
+      "priority": "0.9",
+      "changefreq": "monthly"
+    },
+    "services/renovations-upgrades.html": {
+      "path": "/services/renovations-upgrades",
+      "title": "Kitchen & Bath Remodel | Palm Harbor FL | JNS",
+      "description": "Kitchen remodeling, bathroom renovations & interior upgrades in Palm Harbor, Clearwater & Pinellas County. Written scopes. CRC1334879.",
+      "keywords": "kitchen remodel Palm Harbor, bathroom renovation Pinellas County, home renovation Clearwater FL",
+      "og_title": "Renovations & Upgrades | JNS Construction",
+      "service_name": "Renovations and Upgrades",
+      "service_description": "Kitchen remodeling, bathroom renovations, flooring, and whole-home interior upgrades for Pinellas County homeowners.",
+      "index": true,
+      "priority": "0.9",
+      "changefreq": "monthly"
+    },
+    "services/repairs-corrective-work.html": {
+      "path": "/services/repairs-corrective-work",
+      "title": "Home Repairs Contractor | Palm Harbor FL | JNS",
+      "description": "Code corrections, water & storm damage repairs, and corrective construction in Palm Harbor and Pinellas County. Licensed contractor.",
+      "keywords": "home repair Palm Harbor, water damage repair Pinellas, code correction contractor Florida",
+      "og_title": "Repairs & Corrective Work | JNS Construction",
+      "service_name": "Repairs and Corrective Work",
+      "service_description": "Corrective repairs, code corrections, water damage restoration, and storm damage repair for residential properties in Pinellas County.",
+      "index": true,
+      "priority": "0.9",
+      "changefreq": "monthly"
+    },
+    "services/project-coordination.html": {
+      "path": "/services/project-coordination",
+      "title": "Project Coordination | Palm Harbor Contractor",
+      "description": "Trade scheduling, permit oversight & budget management for remodels in Palm Harbor and Pinellas County. One point of contact.",
+      "keywords": "project coordination Palm Harbor, construction management Pinellas County, contractor oversight Florida",
+      "og_title": "Project Coordination | JNS Construction",
+      "service_name": "Project Coordination",
+      "service_description": "Construction project coordination including subcontractor management, scheduling, permits, and budget oversight across Pinellas County.",
+      "index": true,
+      "priority": "0.9",
+      "changefreq": "monthly"
+    },
+    "payment-policy.html": {
+      "path": "/payment-policy",
+      "title": "Payment Policy | JNS Construction Services",
+      "description": "JNS Construction payment terms: deposits, progress payments, accepted methods, and billing for Palm Harbor construction projects.",
+      "keywords": "JNS Construction payment policy, contractor deposit terms Florida",
+      "index": true,
+      "priority": "0.2",
+      "changefreq": "yearly"
+    },
+    "privacy-policy.html": {
+      "path": "/privacy-policy",
+      "title": "Privacy Policy | JNS Construction Services",
+      "description": "How JNS Construction Services LLC collects, uses, and protects information submitted through jnsbuilds.com contact and estimate forms.",
+      "keywords": "JNS Construction privacy policy",
+      "index": true,
+      "priority": "0.2",
+      "changefreq": "yearly"
+    },
+    "refund-policy.html": {
+      "path": "/refund-policy",
+      "title": "Refund Policy | JNS Construction Services",
+      "description": "Refund and cancellation terms for JNS Construction deposits, pre-construction cancellation, warranty remediation, and billing disputes.",
+      "keywords": "JNS Construction refund policy, contractor cancellation terms",
+      "index": true,
+      "priority": "0.2",
+      "changefreq": "yearly"
+    },
+    "terms-of-service.html": {
+      "path": "/terms-of-service",
+      "title": "Terms of Service | JNS Construction Services",
+      "description": "Terms governing use of jnsbuilds.com and estimate requests for JNS Construction Services LLC in Palm Harbor, Florida.",
+      "keywords": "JNS Construction terms of service",
+      "index": true,
+      "priority": "0.2",
+      "changefreq": "yearly"
+    }
+  }
+}
