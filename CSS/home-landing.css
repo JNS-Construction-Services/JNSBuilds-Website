@@ -18,6 +18,10 @@ body.home-landing .hero {
   align-items: stretch;
 }
 
+body.home-landing .hero-mobile-banner {
+  display: none;
+}
+
 /* ---- Hero: split original banner into 4 panels ---- */
 
 body.home-landing .hero-panels {
@@ -678,42 +682,65 @@ body.home-landing .hero-enter--d17 { animation-delay: 1.7s; }
    HOMEPAGE MOBILE (768px and below)
    ============================================= */
 @media (max-width: 768px) {
-  /* Hero ? single portrait banner, no panel slide-in */
-  body.home-landing .hero {
-    min-height: auto;
+  body.home-landing .hero-mobile-banner {
+    display: block;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+    height: clamp(220px, 44vw, 320px);
+    overflow: hidden;
+    background: #0a100a;
   }
 
-  body.home-landing .hero-panels {
+  body.home-landing .hero-mobile-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 14%;
     display: block;
-    grid-template-columns: none;
-    grid-template-rows: none;
+  }
+
+  body.home-landing .hero-mobile-banner__scrim {
     position: absolute;
     inset: 0;
-    background: url("../images/jns-construction-services-hero-mobile.webp") center 14% / cover no-repeat;
-  }
-
-  body.home-landing .hero-panel {
-    display: none !important;
-    animation: none !important;
-  }
-
-  body.home-landing .hero-overlay {
+    pointer-events: none;
     background: linear-gradient(
       180deg,
-      rgba(6, 13, 8, 0.06) 0%,
-      rgba(6, 13, 8, 0.04) 36%,
-      rgba(6, 13, 8, 0.42) 62%,
-      rgba(6, 13, 8, 0.9) 100%
+      rgba(6, 13, 8, 0.08) 0%,
+      rgba(6, 13, 8, 0.02) 42%,
+      rgba(6, 13, 8, 0.55) 78%,
+      rgba(6, 13, 8, 0.92) 100%
     );
   }
 
+  /* Hero — portrait banner on top, copy + form below */
+  body.home-landing .hero {
+    min-height: auto;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: hidden;
+    background: #060d08;
+  }
+
+  body.home-landing .hero-panels,
+  body.home-landing .hero-cutout-wrap {
+    display: none !important;
+  }
+
+  body.home-landing .hero-overlay {
+    display: none;
+  }
+
   body.home-landing .hero-content {
-    align-items: flex-start;
+    position: relative;
+    align-items: stretch;
+    width: 100%;
+    background: linear-gradient(180deg, #0a100a 0%, #060d08 100%);
   }
 
   body.home-landing .hero-inner {
     gap: 16px;
-    padding: clamp(16px, 4vw, 24px) 0 36px;
+    padding: 20px 0 36px;
     justify-items: stretch;
   }
 
@@ -723,17 +750,7 @@ body.home-landing .hero-enter--d17 { animation-delay: 1.7s; }
     animation: none !important;
   }
 
-  body.home-landing .hero-cutout-wrap {
-    width: min(52vw, 300px);
-    height: min(62vh, 500px);
-    right: clamp(0px, 1vw, 10px);
-  }
-
-  body.home-landing .hero.hero-panels-ready .hero-cutout {
-    animation-delay: 0.5s;
-  }
-
-  /* Copy ? sits below the portrait, not over the face */
+  /* Copy — below banner, no overlap hacks */
   body.home-landing .hero-copy {
     order: 1;
     width: 100%;
@@ -783,8 +800,7 @@ body.home-landing .hero-enter--d17 { animation-delay: 1.7s; }
     flex-direction: column;
     align-items: stretch;
     gap: 8px;
-    /* Headline stays high; buttons + below keep original vertical position */
-    margin-top: max(12px, calc(min(36vh, 270px) - clamp(16px, 4vw, 24px)));
+    margin-top: 16px;
     margin-bottom: 16px;
   }
 

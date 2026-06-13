@@ -262,11 +262,6 @@ body.home-landing .gallery-section {
 }
 
 @media (max-width: 768px) {
-  body.home-landing .hero-cutout-wrap {
-    right: -6%;
-    width: min(58vw, 300px);
-  }
-
   body.home-landing .hero-copy .trust-row {
     grid-template-columns: 1fr;
     gap: 8px;

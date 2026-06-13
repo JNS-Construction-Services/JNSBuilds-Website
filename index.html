@@ -18,8 +18,8 @@
 
   <!-- Preload hero for LCP -->
   <link rel="preload" as="image" href="images/jns-construction-services-hero.webp" fetchpriority="high" media="(min-width: 769px)" />
-  <link rel="preload" as="image" href="images/jns-construction-services-hero-mobile.webp" fetchpriority="high" media="(max-width: 768px)" />
-  <link rel="preload" as="image" href="images/jns-hero-cutout.webp" fetchpriority="high" />
+  <link rel="preload" as="image" href="images/jns-construction-services-hero-mobile.png" fetchpriority="high" media="(max-width: 768px)" />
+  <link rel="preload" as="image" href="images/jns-hero-cutout.webp" fetchpriority="high" media="(min-width: 769px)" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="JNS Construction Services | Palm Harbor General Contractor" />
@@ -298,6 +298,18 @@
          HERO
          ============================================================ -->
     <section class="hero" aria-label="Introduction">
+      <div class="hero-mobile-banner" aria-hidden="true">
+        <img
+          src="images/jns-construction-services-hero-mobile.png"
+          alt=""
+          width="948"
+          height="1024"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+        />
+        <div class="hero-mobile-banner__scrim"></div>
+      </div>
       <div class="hero-panels" aria-hidden="true">
         <div class="hero-panel hero-panel--left hero-panel--photo">
           <img src="Gallery/kitchen-remodel-charcoal-cabinets.webp" alt="" width="600" height="450" loading="eager" decoding="async" role="presentation">
