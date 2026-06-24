@@ -15,6 +15,7 @@ Repo root = GitHub Pages site root (`https://jnsbuilds.com`).
 | `services/repairs-corrective-work.html` | `.../services/repairs-corrective-work` | Service detail |
 | `services/project-coordination.html` | `.../services/project-coordination` | Service detail |
 | `privacy-policy.html` | `https://jnsbuilds.com/privacy-policy` | Privacy policy |
+| `thank-you.html` | `https://jnsbuilds.com/thank-you` | Form submission confirmation (noindex) |
 | `terms-of-service.html` | `https://jnsbuilds.com/terms-of-service` | Terms |
 | `payment-policy.html` | `https://jnsbuilds.com/payment-policy` | Payment terms |
 | `refund-policy.html` | `https://jnsbuilds.com/refund-policy` | Refund policy |
@@ -42,9 +43,15 @@ Home (index.html)
 
 ## Forms
 
-Processor: **FormSubmit** → `https://formsubmit.co/projects@jnsconstructionfl.com`
+Processor: **Formspree** → `https://formspree.io/f/xaqgqgyg`
 
-Used on: `index.html` (hero), `contact.html`, and sidebar forms on service pages.
+**Account:** JNS owns their own Formspree account (not shared with Knight Group, Knight Logics, or other client sites). Same model as Screen Team and Faith Works.
+
+**Client setup (JNS):** Form `xaqgqgyg` is live. If replacing in the future, find/replace `xaqgqgyg` in all six HTML forms.
+
+Notification email: `projects@jnsconstructionfl.com`
+
+Used on: `index.html` (hero), `contact.html`, sidebar forms on service pages. Redirects to `thank-you.html` via `_next`.
 
 ## Shared assets
 

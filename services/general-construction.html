@@ -387,9 +387,12 @@
 
         <div class="sidebar-card sidebar-form-card">
           <p class="sidebar-card-label">Request a Free Estimate</p>
-          <form class="estimate-form sidebar-form" action="https://formsubmit.co/projects@jnsconstructionfl.com" method="POST">
-            <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" />
+          <form class="estimate-form sidebar-form" action="https://formspree.io/f/xaqgqgyg" method="POST">
+            <label class="visually-hidden" for="gc-sidebar-hp">Leave this field blank</label>
+            <input type="text" id="gc-sidebar-hp" name="address_2" class="hp" tabindex="-1" autocomplete="off" />
             <input type="hidden" name="_subject" value="JNS Construction &mdash; Estimate Request" />
+            <input type="hidden" name="request_type" value="General Construction / Sidebar Estimate" />
+            <input type="hidden" name="_next" value="https://jnsbuilds.com/thank-you" />
             <label>Name *<input type="text" name="fullName" required /></label>
             <label>Phone *<input type="tel" name="phone" required /></label>
             <label>Email *<input type="email" name="email" required /></label>

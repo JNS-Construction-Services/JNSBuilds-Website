@@ -338,13 +338,15 @@
 
           <form
             class="contact-form"
-            action="https://formsubmit.co/projects@jnsconstructionfl.com"
+            action="https://formspree.io/f/xaqgqgyg"
             method="POST"
             id="hero-contact-form"
           >
-            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
-            <input type="hidden" name="_subject" value="JNS Construction &mdash; Estimate Request" />
-            <input type="hidden" name="_captcha" value="false" />
+            <label class="visually-hidden" for="hero-hp">Leave this field blank</label>
+            <input type="text" id="hero-hp" name="address_2" class="hp" style="display:none" tabindex="-1" autocomplete="off" />
+            <input type="hidden" name="_subject" value="JNS Construction &mdash; Homepage Estimate Request" />
+            <input type="hidden" name="request_type" value="Homepage Estimate Request" />
+            <input type="hidden" name="_next" value="https://jnsbuilds.com/thank-you" />
             <div class="form-group">
               <label for="hf-name">Your Name</label>
               <input type="text" id="hf-name" name="name" placeholder="First and last name" required autocomplete="name" />
