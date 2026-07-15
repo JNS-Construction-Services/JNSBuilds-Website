@@ -1,6 +1,7 @@
 # Local dev / audit artifacts
 *.xlsx
 lighthouse-run*.json
+desktop.report.json
 _compare_run.py
 _critical_path.py
 _gallery-html.txt
