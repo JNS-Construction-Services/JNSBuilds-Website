@@ -13,6 +13,7 @@ Disallow: /_gallery-html.txt
 User-agent: GPTBot
 Allow: /
 Allow: /llms.txt
+Allow: /ai.txt
 
 User-agent: Google-Extended
 Allow: /

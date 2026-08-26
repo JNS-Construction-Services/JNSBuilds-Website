@@ -9,6 +9,7 @@ const NAV_ACTIVE_SELECTORS = {
   home: [".site-header .brand", ".mobile-nav-links a[href='/']"],
   about: [".site-nav > a[href='/about']", ".mobile-nav-links a[href='/about']"],
   gallery: [".site-nav > a[href='/gallery']", ".mobile-nav-links a[href='/gallery']"],
+  areas: [".site-nav > a[href='/areas']", ".mobile-nav-links a[href='/areas']"],
   contact: [".site-nav > a[href='/contact']", ".mobile-nav-links a[href='/contact']"],
   "general-construction": [
     ".nav-dropdown-menu a[href='/services/general-construction']",
@@ -41,6 +42,7 @@ function getIncludeBase() {
 function getCurrentNavPage() {
   const path = window.location.pathname.replace(/\/+$/, "") || "/";
   if (path === "/" || path.endsWith("/index.html")) return "home";
+  if (path === "/areas" || path.startsWith("/areas/")) return "areas";
   const segment = path.split("/").pop() || "";
   return segment.replace(/\.html$/, "");
 }

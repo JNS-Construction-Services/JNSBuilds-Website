@@ -1,0 +1,50 @@
+{
+  "palm-harbor": {
+    "file": "Saint Luke Church (Palm Harbor, Florida) - exterior.jpg",
+    "local": "images/cities/palm-harbor.webp",
+    "license": "CC0",
+    "commons": "https://commons.wikimedia.org/wiki/File:Saint%20Luke%20Church%20%28Palm%20Harbor%2C%20Florida%29%20-%20exterior.jpg",
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Nheyob\" title=\"User:Nheyob\">Nheyob</a>",
+    "artist_plain": "Nheyob / Wikimedia Commons"
+  },
+  "clearwater": {
+    "file": "Clearwater-beach-florida-pier-60.jpg",
+    "local": "images/cities/clearwater.webp",
+    "license": "CC BY-SA 4.0",
+    "commons": "https://commons.wikimedia.org/wiki/File:Clearwater-beach-florida-pier-60.jpg",
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Citythings\" title=\"User:Citythings\">TampaThings.com</a>",
+    "artist_plain": "TampaThings.com / Wikimedia Commons"
+  },
+  "dunedin": {
+    "file": "Dunedin FL downtown01.jpg",
+    "local": "images/cities/dunedin.webp",
+    "license": "CC BY-SA 3.0",
+    "commons": "https://commons.wikimedia.org/wiki/File:Dunedin%20FL%20downtown01.jpg",
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ebyabe\" title=\"User:Ebyabe\">Ebyabe</a>",
+    "artist_plain": "Ebyabe / Wikimedia Commons"
+  },
+  "tarpon-springs": {
+    "file": "Sponge fishing Tarpon Springs FL.jpg",
+    "local": "images/cities/tarpon-springs.webp",
+    "license": "CC BY-SA 4.0",
+    "commons": "https://commons.wikimedia.org/wiki/File:Sponge%20fishing%20Tarpon%20Springs%20FL.jpg",
+    "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mlongchamps&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mlongchamps (page does not exist)\">Mlongchamps</a>",
+    "artist_plain": "Mlongchamps / Wikimedia Commons"
+  },
+  "safety-harbor": {
+    "file": "Safety harbor city hall pmr 01a.jpg",
+    "local": "images/cities/safety-harbor.webp",
+    "license": "CC BY-SA 2.5",
+    "commons": "https://commons.wikimedia.org/wiki/File:Safety%20harbor%20city%20hall%20pmr%2001a.jpg",
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Mikereichold\" title=\"User:Mikereichold\">Philipp Michel Reichold</a>",
+    "artist_plain": "Philipp Michel Reichold / Wikimedia Commons"
+  },
+  "oldsmar": {
+    "file": "Historic 1920s Home - Oldsmar, FL.jpg",
+    "local": "images/cities/oldsmar.webp",
+    "license": "CC0",
+    "commons": "https://commons.wikimedia.org/wiki/File:Historic%201920s%20Home%20-%20Oldsmar%2C%20FL.jpg",
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:CityLimitsJunction\" title=\"User:CityLimitsJunction\">CityLimitsJunction</a>",
+    "artist_plain": "CityLimitsJunction / Wikimedia Commons"
+  }
+}

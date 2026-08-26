@@ -8,3 +8,12 @@ _gallery-html.txt
 
 # Gallery originals (WebP copies are deployed)
 Gallery/_source/
+
+# Local photo previews (do not deploy)
+images/cities/_preview/
+
+# GSC copies and Python cache (do not deploy)
+.gsc-audit-latest.json
+gsc-audit/
+scripts/__pycache__/
+__pycache__/

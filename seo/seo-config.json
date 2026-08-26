@@ -13,7 +13,7 @@
   "pages": {
     "index.html": {
       "path": "/",
-      "title": "General Contractor Palm Harbor FL | JNS Construction",
+      "title": "General Contractor Palm Harbor FL | Free Estimates",
       "description": "Licensed contractor Palm Harbor FL (CRC1334879). Kitchen & bath remodels, repairs & builds in Pinellas County. Free written estimates.",
       "keywords": "general contractor Palm Harbor, kitchen remodel Pinellas County, bathroom renovation Clearwater, licensed contractor Florida CRC1334879",
       "og_title": "JNS Construction Services | Palm Harbor General Contractor",
@@ -98,6 +98,76 @@
       "service_description": "Construction project coordination including subcontractor management, scheduling, permits, and budget oversight across Pinellas County.",
       "index": true,
       "priority": "0.9",
+      "changefreq": "monthly"
+    },
+    "areas/index.html": {
+      "path": "/areas",
+      "title": "Service Areas | Palm Harbor to Clearwater | JNS",
+      "description": "Licensed kitchen & bath remodeling across Palm Harbor, Clearwater, Dunedin, Tarpon Springs, Safety Harbor, and Oldsmar. CRC1334879.",
+      "keywords": "contractor Palm Harbor, kitchen remodel Clearwater, licensed contractor Pinellas County",
+      "og_title": "Service Areas | Palm Harbor to Clearwater | JNS",
+      "index": true,
+      "priority": "0.8",
+      "changefreq": "monthly"
+    },
+    "areas/palm-harbor.html": {
+      "path": "/areas/palm-harbor",
+      "title": "Kitchen Remodel Palm Harbor FL | Licensed Contractor",
+      "description": "Kitchen & bath remodels in Palm Harbor, Ozona & East Lake. Licensed CRC1334879. Free written estimates. Call (727) 265-1120.",
+      "keywords": "kitchen remodel Palm Harbor, general contractor Palm Harbor FL, bathroom remodel Ozona, East Lake renovation",
+      "og_title": "Kitchen Remodel Palm Harbor FL | Licensed Contractor",
+      "index": true,
+      "priority": "0.8",
+      "changefreq": "monthly"
+    },
+    "areas/clearwater.html": {
+      "path": "/areas/clearwater",
+      "title": "Kitchen Remodel Clearwater FL | Licensed Contractor",
+      "description": "Kitchen & bath remodeling in Clearwater and Countryside. Licensed CRC1334879, Pinellas permits. Call (727) 265-1120.",
+      "keywords": "kitchen remodel Clearwater FL, bathroom renovation Clearwater, licensed contractor Countryside",
+      "og_title": "Kitchen Remodel Clearwater FL | Licensed Contractor",
+      "index": true,
+      "priority": "0.8",
+      "changefreq": "monthly"
+    },
+    "areas/dunedin.html": {
+      "path": "/areas/dunedin",
+      "title": "Contractor Dunedin FL | Kitchen & Bath Remodel | JNS",
+      "description": "Licensed kitchen & bath remodeling in downtown Dunedin and nearby Pinellas homes. CRC1334879. Call (727) 265-1120.",
+      "keywords": "kitchen remodel Dunedin FL, bathroom renovation Dunedin, licensed contractor Dunedin",
+      "og_title": "Contractor Dunedin FL | Kitchen & Bath Remodel | JNS",
+      "index": true,
+      "priority": "0.8",
+      "changefreq": "monthly"
+    },
+    "areas/tarpon-springs.html": {
+      "path": "/areas/tarpon-springs",
+      "title": "Contractor Tarpon Springs FL | Kitchen Remodel | JNS",
+      "description": "Kitchen & bath remodels in Tarpon Springs and Greektown-area homes. Licensed CRC1334879. Call (727) 265-1120.",
+      "keywords": "kitchen remodel Tarpon Springs, licensed contractor Tarpon Springs FL, bathroom renovation Greektown",
+      "og_title": "Contractor Tarpon Springs FL | Kitchen Remodel | JNS",
+      "index": true,
+      "priority": "0.8",
+      "changefreq": "monthly"
+    },
+    "areas/safety-harbor.html": {
+      "path": "/areas/safety-harbor",
+      "title": "Contractor Safety Harbor FL | Kitchen & Bath | JNS",
+      "description": "Licensed kitchen & bath remodeling in Safety Harbor. Pinellas permits, written scopes. CRC1334879. (727) 265-1120.",
+      "keywords": "kitchen remodel Safety Harbor, licensed contractor Safety Harbor FL, bathroom renovation Safety Harbor",
+      "og_title": "Contractor Safety Harbor FL | Kitchen & Bath | JNS",
+      "index": true,
+      "priority": "0.8",
+      "changefreq": "monthly"
+    },
+    "areas/oldsmar.html": {
+      "path": "/areas/oldsmar",
+      "title": "Contractor Oldsmar FL | Kitchen & Bath Remodel | JNS",
+      "description": "Kitchen & bath remodeling in Oldsmar. Licensed CRC1334879, written scopes, Pinellas permits. Call (727) 265-1120.",
+      "keywords": "kitchen remodel Oldsmar FL, licensed contractor Oldsmar, bathroom renovation Oldsmar",
+      "og_title": "Contractor Oldsmar FL | Kitchen & Bath Remodel | JNS",
+      "index": true,
+      "priority": "0.8",
       "changefreq": "monthly"
     },
     "payment-policy.html": {

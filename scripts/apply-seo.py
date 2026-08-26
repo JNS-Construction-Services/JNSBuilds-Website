@@ -145,7 +145,12 @@ def service_schema(path: str, page: dict) -> dict:
         "description": page["service_description"],
         "provider": {"@id": SITE["business_id"]},
         "areaServed": [
-            {"@type": "City", "name": "Palm Harbor"},
+            {"@type": "City", "name": "Palm Harbor", "url": SITE["domain"] + "/areas/palm-harbor"},
+            {"@type": "City", "name": "Clearwater", "url": SITE["domain"] + "/areas/clearwater"},
+            {"@type": "City", "name": "Dunedin", "url": SITE["domain"] + "/areas/dunedin"},
+            {"@type": "City", "name": "Tarpon Springs", "url": SITE["domain"] + "/areas/tarpon-springs"},
+            {"@type": "City", "name": "Safety Harbor", "url": SITE["domain"] + "/areas/safety-harbor"},
+            {"@type": "City", "name": "Oldsmar", "url": SITE["domain"] + "/areas/oldsmar"},
             {"@type": "AdministrativeArea", "name": "Pinellas County, FL"},
             {"@type": "AdministrativeArea", "name": "Pasco County, FL"},
         ],
@@ -262,6 +267,8 @@ def schema_graph_for(rel: str, page: dict) -> str:
 
 
 def inject_schema(content: str, rel: str, page: dict) -> str:
+    if rel.startswith("areas/"):
+        return content
     if rel == "index.html":
         # Add WebSite to existing @graph if present, else skip (homepage already has business schema)
         if '"@type": "WebSite"' not in content:
@@ -395,6 +402,7 @@ Disallow: /_gallery-html.txt
 User-agent: GPTBot
 Allow: /
 Allow: /llms.txt
+Allow: /ai.txt
 
 User-agent: Google-Extended
 Allow: /
@@ -414,29 +422,40 @@ Sitemap: https://jnsbuilds.com/sitemap.xml
 def write_llms_txt() -> None:
     text = f"""# JNS Construction Services LLC
 
-> Licensed general contractor in Palm Harbor, Florida (CRC1334879) serving Pinellas County and surrounding areas with kitchen remodels, bathroom renovations, general construction, repairs, and project coordination.
+> Licensed certified residential contractor in Palm Harbor, Florida (CRC1334879) for kitchen remodels, bathroom renovations, home additions, general construction, repairs, and project coordination across north Pinellas County.
 
 ## Business
 - Name: JNS Construction Services LLC
+- Also known as: JNS Construction, JNS Builds
 - Website: {SITE['domain']}
 - Phone: (727) 265-1120
 - Email: projects@jnsconstructionfl.com
 - Address: 35595 US Hwy 19 N, Suite 621, Palm Harbor, FL 34684
 - License: Florida Certified Residential Contractor CRC1334879
-- Service area: Palm Harbor, Dunedin, Clearwater, Tarpon Springs, Safety Harbor, Oldsmar, New Port Richey, Pinellas County, Pasco County
+- Field: Nathanial Combs (president), Connor McCollum (field supervisor)
+- AI facts: {SITE['domain']}/ai.txt
 
 ## Primary pages
 - Home: {SITE['domain']}/
 - About: {SITE['domain']}/about
 - Contact / free estimate: {SITE['domain']}/contact
 - Project gallery: {SITE['domain']}/gallery
+- Service areas hub: {SITE['domain']}/areas
 - General construction: {SITE['domain']}/services/general-construction
-- Renovations & upgrades: {SITE['domain']}/services/renovations-upgrades
+- Kitchen & bath remodels: {SITE['domain']}/services/renovations-upgrades
 - Repairs & corrective work: {SITE['domain']}/services/repairs-corrective-work
 - Project coordination: {SITE['domain']}/services/project-coordination
 
+## City pages
+- Palm Harbor: {SITE['domain']}/areas/palm-harbor
+- Clearwater: {SITE['domain']}/areas/clearwater
+- Dunedin: {SITE['domain']}/areas/dunedin
+- Tarpon Springs: {SITE['domain']}/areas/tarpon-springs
+- Safety Harbor: {SITE['domain']}/areas/safety-harbor
+- Oldsmar: {SITE['domain']}/areas/oldsmar
+
 ## Services summary
-JNS provides written scopes and free site consultations for residential remodels, room additions, structural repairs, code corrections, and trade coordination. Field leadership is provided by Nathanial Combs and Connor McCollum.
+JNS provides written scopes and free site consultations for residential kitchen remodels, bathroom renovations, room additions, structural repairs, code corrections, and trade coordination. This is licensed CRC work, not an hourly punch-list service. New Port Richey and west Pasco are quoted when the job is licensed remodeling.
 
 ## Optional
 - Privacy policy: {SITE['domain']}/privacy-policy
@@ -453,7 +472,7 @@ def expand_gallery_seo_copy() -> None:
     intro = """        <div class="gallery-seo-intro reveal">
           <p>JNS Construction Services LLC documents completed kitchen remodels, bathroom renovations, room additions, and corrective repair work across <strong>Palm Harbor</strong>, <strong>Clearwater</strong>, <strong>Dunedin</strong>, and greater <strong>Pinellas County</strong>. Every photo in this gallery is from a real client project — not stock imagery.</p>
           <p>Whether you are planning a full kitchen remodel, a walk-in shower upgrade, or a before-and-after renovation, these photos show the finish quality, scope depth, and field standards JNS brings to licensed residential construction under Florida license <strong>CRC1334879</strong>.</p>
-          <p>Use the category filters to browse kitchen remodels, bathroom projects, before-and-after collages, outdoor builds, and interior upgrades. Ready to discuss a similar project? <a href="/contact.html">Request a free estimate</a> or call <a href="tel:+17272651120">(727) 265-1120</a>.</p>
+          <p>Use the category filters to browse kitchen remodels, bathroom projects, before-and-after collages, outdoor builds, and interior upgrades. Ready to discuss a similar project? <a href="/contact">Request a free estimate</a> or call <a href="tel:+17272651120">(727) 265-1120</a>.</p>
         </div>
 """
     if "gallery-seo-intro" not in content:

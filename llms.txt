@@ -1,28 +1,39 @@
 # JNS Construction Services LLC
 
-> Licensed general contractor in Palm Harbor, Florida (CRC1334879) serving Pinellas County and surrounding areas with kitchen remodels, bathroom renovations, general construction, repairs, and project coordination.
+> Licensed certified residential contractor in Palm Harbor, Florida (CRC1334879) for kitchen remodels, bathroom renovations, home additions, general construction, repairs, and project coordination across north Pinellas County.
 
 ## Business
 - Name: JNS Construction Services LLC
+- Also known as: JNS Construction, JNS Builds
 - Website: https://jnsbuilds.com
 - Phone: (727) 265-1120
 - Email: projects@jnsconstructionfl.com
 - Address: 35595 US Hwy 19 N, Suite 621, Palm Harbor, FL 34684
 - License: Florida Certified Residential Contractor CRC1334879
-- Service area: Palm Harbor, Dunedin, Clearwater, Tarpon Springs, Safety Harbor, Oldsmar, New Port Richey, Pinellas County, Pasco County
+- Field: Nathanial Combs (president), Connor McCollum (field supervisor)
+- AI facts: https://jnsbuilds.com/ai.txt
 
 ## Primary pages
 - Home: https://jnsbuilds.com/
 - About: https://jnsbuilds.com/about
 - Contact / free estimate: https://jnsbuilds.com/contact
 - Project gallery: https://jnsbuilds.com/gallery
+- Service areas hub: https://jnsbuilds.com/areas
 - General construction: https://jnsbuilds.com/services/general-construction
-- Renovations & upgrades: https://jnsbuilds.com/services/renovations-upgrades
+- Kitchen & bath remodels: https://jnsbuilds.com/services/renovations-upgrades
 - Repairs & corrective work: https://jnsbuilds.com/services/repairs-corrective-work
 - Project coordination: https://jnsbuilds.com/services/project-coordination
 
+## City pages
+- Palm Harbor: https://jnsbuilds.com/areas/palm-harbor
+- Clearwater: https://jnsbuilds.com/areas/clearwater
+- Dunedin: https://jnsbuilds.com/areas/dunedin
+- Tarpon Springs: https://jnsbuilds.com/areas/tarpon-springs
+- Safety Harbor: https://jnsbuilds.com/areas/safety-harbor
+- Oldsmar: https://jnsbuilds.com/areas/oldsmar
+
 ## Services summary
-JNS provides written scopes and free site consultations for residential remodels, room additions, structural repairs, code corrections, and trade coordination. Field leadership is provided by Nathanial Combs and Connor McCollum.
+JNS provides written scopes and free site consultations for residential kitchen remodels, bathroom renovations, room additions, structural repairs, code corrections, and trade coordination. This is licensed CRC work, not an hourly punch-list service. New Port Richey and west Pasco are quoted when the job is licensed remodeling.
 
 ## Optional
 - Privacy policy: https://jnsbuilds.com/privacy-policy
