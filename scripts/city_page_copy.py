@@ -9,7 +9,7 @@ COPY = {
             ),
             (
                 "Who actually shows up on a Palm Harbor remodel?",
-                "The same people who walk the house write the exclusions and stay through close-out. You are not handed to a rotating franchise dispatcher after the deposit.",
+                "Combs and McCollum walk the house, write the exclusions, and stay through close-out. You are not handed to a rotating franchise dispatcher after the deposit.",
             ),
             (
                 "When does a Palm Harbor kitchen or bath need a Pinellas permit?",
@@ -32,7 +32,7 @@ COPY = {
             {
                 "h2": "A Palm Harbor contractor for kitchens, baths, and permitted work",
                 "html": """
-        <p>Palm Harbor is the shop address for JNS Construction Services LLC: 35595 US Hwy 19 N, Suite 621. That matters because kitchen and bath remodels here are not a satellite stop on a regional route. The crew walks the house, writes the exclusions, and stays through the last walkthrough under Florida Certified Residential Contractor license CRC1334879.</p>
+        <p>Palm Harbor is the shop address for JNS Construction Services LLC: 35595 US Hwy 19 N, Suite 621. That matters because kitchen and bath remodels here are not a satellite stop on a regional route. Combs and McCollum walk the house, write the exclusions, and stay through the last walkthrough under Florida Certified Residential Contractor license CRC1334879.</p>
         <p>The calls we take in this zip cluster are usually layout changes, not a one-hour punch list. Opening a galley kitchen on a 1970s ranch along Nebraska Avenue, rebuilding a primary bath in East Lake, or tying a mudroom into a garage addition all move plumbing, electrical, or structure. That is licensed CRC work. If you searched <strong>kitchen remodel Palm Harbor</strong> or <strong>general contractor Palm Harbor</strong>, this page is the local match &mdash; the homepage still owns the county-wide contractor query; this page is for homeowners who live here and want the remodel described in Palm Harbor terms.</p>
         <p>Start with a <a href="/contact">free written estimate</a> or call <a href="tel:+17272651120">(727) 265-1120</a>. Bring photos. We will tell you whether the job fits before anyone orders cabinets.</p>
 """,
@@ -91,7 +91,7 @@ COPY = {
             ),
             (
                 "Who is in the field on a Clearwater job?",
-                "JNS is a Palm Harbor contractor driving into Clearwater &mdash; not a call-center brand with a rotating sub list.",
+                "Combs and McCollum. JNS is a Palm Harbor contractor driving into Clearwater &mdash; not a call-center brand with a rotating sub list.",
             ),
             (
                 "How do I send a Clearwater estimate request?",
@@ -133,7 +133,7 @@ COPY = {
                 "h2": "Permits, HOAs, and how we schedule Clearwater",
                 "html": """
         <p>Pinellas permitting for Clearwater addresses still runs through the county process we already use from Palm Harbor. What changes is access: Countryside cul-de-sacs versus a Gulf-to-Bay commercial edge versus an Island Estates gate. Dumpster, porta, and material drops go in the written plan.</p>
-        <p>The same Palm Harbor crew runs the job. Read <a href="/about">about JNS</a> for license and people, then send the Clearwater address through <a href="/contact">contact</a>. The <a href="/areas">areas hub</a> is the index if you are comparing cities.</p>
+        <p>Combs and McCollum run the job. Read <a href="/about">about JNS</a> for license and people, then send the Clearwater address through <a href="/contact">contact</a>. The <a href="/areas">areas hub</a> is the index if you are comparing cities.</p>
 """,
             },
         ],
@@ -154,7 +154,7 @@ COPY = {
             ),
             (
                 "Are you based in Dunedin?",
-                "No. JNS is Palm Harbor based and schedules Dunedin as a core Pinellas remodel city. You still get the same Palm Harbor crew.",
+                "No. JNS is Palm Harbor based and schedules Dunedin as a core Pinellas remodel city. You still get Combs and McCollum.",
             ),
             (
                 "Will you take a Dunedin job that already failed inspection?",
@@ -224,7 +224,7 @@ COPY = {
             ),
             (
                 "Who supervises Tarpon Springs jobs?",
-                "The crew is dispatched from Palm Harbor. Same crew model as the rest of north Pinellas.",
+                "Combs and McCollum are dispatched from Palm Harbor. Same crew model as the rest of north Pinellas.",
             ),
             (
                 "How do I start?",
@@ -257,7 +257,7 @@ COPY = {
             {
                 "h2": "Access, permits, and field leadership",
                 "html": """
-        <p>Pinellas permits still apply. What is local is access: downtown Tarpon will punish a sloppy staging plan. We write it. The same Palm Harbor crew runs the job. License: <a href="/about">about JNS</a>. Multi-room sequences: <a href="/services/project-coordination">project coordination</a>.</p>
+        <p>Pinellas permits still apply. What is local is access: downtown Tarpon will punish a sloppy staging plan. We write it. Combs and McCollum run the job. License: <a href="/about">about JNS</a>. Multi-room sequences: <a href="/services/project-coordination">project coordination</a>.</p>
         <p>If the house is closer to the Trail than the docks, also look at <a href="/areas/dunedin">Dunedin</a>. South-east toward the spa district, <a href="/areas/safety-harbor">Safety Harbor</a> is the wrong page only if the address is actually there. Index: <a href="/areas">areas</a>.</p>
 """,
             },
@@ -291,7 +291,7 @@ COPY = {
             ),
             (
                 "Who is on site?",
-                "The crew comes from the Palm Harbor shop. Not a rotating call-center crew.",
+                "Combs and McCollum come from the Palm Harbor shop. Not a rotating call-center crew.",
             ),
             (
                 "How do I send photos?",
@@ -324,7 +324,7 @@ COPY = {
             {
                 "h2": "How JNS runs Safety Harbor from Palm Harbor",
                 "html": """
-        <p>Same crew as every other north Pinellas page. License and people: <a href="/about">about</a>. Payment terms: <a href="/payment-policy">payment policy</a>. Nearby: <a href="/areas/palm-harbor">Palm Harbor</a>, <a href="/areas/oldsmar">Oldsmar</a>, <a href="/areas/clearwater">Clearwater</a>. Hub: <a href="/areas">areas</a>.</p>
+        <p>Combs and McCollum, same as every other north Pinellas page. License and people: <a href="/about">about</a>. Payment terms: <a href="/payment-policy">payment policy</a>. Nearby: <a href="/areas/palm-harbor">Palm Harbor</a>, <a href="/areas/oldsmar">Oldsmar</a>, <a href="/areas/clearwater">Clearwater</a>. Hub: <a href="/areas">areas</a>.</p>
 """,
             },
             {
@@ -358,7 +358,7 @@ COPY = {
             ),
             (
                 "Who runs the job?",
-                "The crew comes from Palm Harbor. Not a rotating sub list.",
+                "Combs and McCollum come from Palm Harbor. Not a rotating sub list.",
             ),
             (
                 "How do I start an Oldsmar estimate?",
@@ -391,7 +391,7 @@ COPY = {
                 "h2": "County line, permits, and the Palm Harbor shop",
                 "html": """
         <p>The county line is why this page exists as its own URL. A Pinellas permit package is not a Hillsborough permit package. We will not copy-paste a Palm Harbor kitchen proposal onto an Oldsmar address and hope the building department agrees. The site visit names the path.</p>
-        <p>The crew is based in Palm Harbor. Background: <a href="/about">about JNS</a>. Nearby cities if the house is not actually Oldsmar: <a href="/areas/safety-harbor">Safety Harbor</a>, <a href="/areas/palm-harbor">Palm Harbor</a>, <a href="/areas/clearwater">Clearwater</a>. Index: <a href="/areas">service areas</a>.</p>
+        <p>Combs and McCollum are based in Palm Harbor. Background: <a href="/about">about JNS</a>. Nearby cities if the house is not actually Oldsmar: <a href="/areas/safety-harbor">Safety Harbor</a>, <a href="/areas/palm-harbor">Palm Harbor</a>, <a href="/areas/clearwater">Clearwater</a>. Index: <a href="/areas">service areas</a>.</p>
 """,
             },
             {
