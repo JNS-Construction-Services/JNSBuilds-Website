@@ -32,7 +32,7 @@ CITIES = [
             "that affect plumbing, electrical, and load-bearing walls. That is licensed CRC work. We also take kitchen and bath "
             "remodels in Ozona cottages and Crystal Beach properties where salt air and older framing change how finishes last. "
             "If you searched kitchen remodel Palm Harbor or a licensed remodeler for Ozona or East Lake, this is the crew: "
-            "Nathanial and Connor in the field, written exclusions, and a free site consultation before you spend a dollar."
+            "A Palm Harbor crew in the field, written exclusions, and a free site consultation before you spend a dollar."
         ),
         "photo_alt": "Saint Luke Church in Palm Harbor, Florida — local landmark near JNS Construction's service base",
         "photo_caption": "Palm Harbor, Florida — local landmark (Saint Luke Church).",
@@ -144,7 +144,7 @@ CITIES = [
         "body": (
             "Many Oldsmar houses are 1980s–2000s production homes where a kitchen open-up or hall-bath rebuild is the real job. "
             "We do not bid mystery hourly punch lists. If you need licensed remodeling with a written scope, call (727) 265-1120 "
-            "or send photos through the form. Field leadership stays Nathanial and Connor — not a rotating sub list."
+            "or send photos through the form. The same Palm Harbor crew stays on the job — not a rotating sub list."
         ),
         "photo_alt": "Historic Mediterranean-style home in Oldsmar, Florida",
         "photo_caption": "Residential architecture in Oldsmar, Florida.",

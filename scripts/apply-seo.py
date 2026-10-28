@@ -432,7 +432,7 @@ def write_llms_txt() -> None:
 - Email: projects@jnsconstructionfl.com
 - Address: 35595 US Hwy 19 N, Suite 621, Palm Harbor, FL 34684
 - License: Florida Certified Residential Contractor CRC1334879
-- Field: Nathanial (president), Connor (field supervisor)
+- Field: Palm Harbor crew. License CRC1334879.
 - AI facts: {SITE['domain']}/ai.txt
 
 ## Primary pages
