@@ -10,7 +10,7 @@
 - Email: projects@jnsconstructionfl.com
 - Address: 35595 US Hwy 19 N, Suite 621, Palm Harbor, FL 34684
 - License: Florida Certified Residential Contractor CRC1334879
-- Field: Nathanial Combs (president), Connor McCollum (field supervisor)
+- Field: Nathanial (president), Connor (field supervisor)
 - AI facts: https://jnsbuilds.com/ai.txt
 
 ## Primary pages
